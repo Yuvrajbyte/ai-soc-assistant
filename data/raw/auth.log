@@ -1,0 +1,724 @@
+2026-11-04T16:58:04.047634+00:00 ubuntu-victim passwd[1026]: password for 'labuser' changed by 'root'
+2026-11-04T16:58:04.047826+00:00 ubuntu-victim systemd-logind[1062]: New seat seat0.
+2026-11-04T16:58:04.047828+00:00 ubuntu-victim systemd-logind[1062]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-11-04T16:58:04.047829+00:00 ubuntu-victim systemd-logind[1062]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-11-04T16:58:04.047831+00:00 ubuntu-victim systemd-logind[1062]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-11-04T16:58:04.047837+00:00 ubuntu-victim sshd[1098]: Server listening on 0.0.0.0 port 22.
+2026-11-04T16:58:04.047840+00:00 ubuntu-victim sshd[1098]: Server listening on :: port 22.
+2026-11-04T17:02:50.683627+00:00 ubuntu-victim login: pam_unix(login:auth): check pass; user unknown
+2026-11-04T17:02:50.684004+00:00 ubuntu-victim login: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+2026-11-04T17:02:55.467866+00:00 ubuntu-victim login: FAILED LOGIN 1 FROM tty1 FOR  , Authentication failure
+2026-11-04T17:03:02.058212+00:00 ubuntu-victim login: pam_unix(login:auth): check pass; user unknown
+2026-11-04T17:03:02.058604+00:00 ubuntu-victim login: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+2026-11-04T17:03:05.976198+00:00 ubuntu-victim login: FAILED LOGIN 2 FROM tty1 FOR , Authentication failure
+2026-11-04T17:03:34.860365+00:00 ubuntu-victim login: pam_unix(login:auth): check pass; user unknown
+2026-11-04T17:03:38.001073+00:00 ubuntu-victim login: FAILED LOGIN 3 FROM tty1 FOR , Authentication failure
+2026-11-04T17:03:42.537696+00:00 ubuntu-victim login: pam_unix(login:auth): check pass; user unknown
+2026-11-04T17:03:42.537862+00:00 ubuntu-victim login: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+2026-11-04T17:03:46.563311+00:00 ubuntu-victim login: FAILED LOGIN 4 FROM tty1 FOR t, Authentication failure
+2026-11-04T17:04:00.407814+00:00 ubuntu-victim login: pam_unix(login:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-04T17:04:00.423120+00:00 ubuntu-victim systemd-logind[1062]: New session '1' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-04T17:04:00.494241+00:00 ubuntu-victim (systemd): pam_unix(systemd-user:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-04T17:04:00.495092+00:00 ubuntu-victim systemd-logind[1062]: New session '2' of user 'labuser' with class 'manager' and type 'unspecified'.
+2026-11-04T17:11:19.228168+00:00 ubuntu-victim systemd-logind[1010]: New seat seat0.
+2026-11-04T17:11:19.228171+00:00 ubuntu-victim systemd-logind[1010]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-11-04T17:11:19.228174+00:00 ubuntu-victim systemd-logind[1010]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-11-04T17:11:19.228176+00:00 ubuntu-victim systemd-logind[1010]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-11-04T17:13:48.390830+00:00 ubuntu-victim login: pam_unix(login:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-04T17:13:48.404801+00:00 ubuntu-victim systemd-logind[1010]: New session '1' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-04T17:13:48.464728+00:00 ubuntu-victim (systemd): pam_unix(systemd-user:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-04T17:13:48.466649+00:00 ubuntu-victim systemd-logind[1010]: New session '2' of user 'labuser' with class 'manager' and type 'unspecified'.
+2026-11-04T17:19:08.151450+00:00 ubuntu-victim systemd-logind[1013]: New seat seat0.
+2026-11-04T17:19:08.151452+00:00 ubuntu-victim systemd-logind[1013]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-11-04T17:19:08.151454+00:00 ubuntu-victim systemd-logind[1013]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-11-04T17:19:08.151456+00:00 ubuntu-victim systemd-logind[1013]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-11-04T17:22:15.414405+00:00 ubuntu-victim login: pam_unix(login:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-04T17:22:15.435269+00:00 ubuntu-victim systemd-logind[1013]: New session '1' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-04T17:22:15.501863+00:00 ubuntu-victim (systemd): pam_unix(systemd-user:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-04T17:22:15.505811+00:00 ubuntu-victim systemd-logind[1013]: New session '2' of user 'labuser' with class 'manager' and type 'unspecified'.
+2026-11-04T17:23:47.634573+00:00 ubuntu-victim sudo: pam_unix(sudo:session): session opened for user root(uid=0) by labuser(uid=1000)
+2026-11-04T17:23:47.634888+00:00 ubuntu-victim sudo: labuser : TTY=/dev/tty1 ; PWD=/home/labuser ; USER=root ; COMMAND=/usr/bin/nano /etc/netplan/00-installer-config.yaml
+2026-11-04T17:26:48.849884+00:00 ubuntu-victim sudo: pam_unix(sudo:session): session closed for user root
+2026-11-04T17:27:14.135066+00:00 ubuntu-victim sudo: pam_unix(sudo:session): session opened for user root(uid=0) by labuser(uid=1000)
+2026-11-04T17:27:14.135346+00:00 ubuntu-victim sudo: labuser : TTY=/dev/tty1 ; PWD=/home/labuser ; USER=root ; COMMAND=/usr/bin/chmod 600 /etc/netplan/00-installer-config.yaml
+2026-11-04T17:27:14.140274+00:00 ubuntu-victim sudo: pam_unix(sudo:session): session closed for user root
+2026-11-04T17:27:20.689735+00:00 ubuntu-victim sudo: pam_unix(sudo:session): session opened for user root(uid=0) by labuser(uid=1000)
+2026-11-04T17:27:20.689832+00:00 ubuntu-victim sudo: labuser : TTY=/dev/tty1 ; PWD=/home/labuser ; USER=root ; COMMAND=/usr/sbin/netplan apply
+2026-11-04T17:27:21.463885+00:00 ubuntu-victim sudo: pam_unix(sudo:session): session closed for user root
+2026-11-04T17:32:06.491550+00:00 ubuntu-victim sshd[1608]: Server listening on 0.0.0.0 port 22.
+2026-11-04T17:32:06.491631+00:00 ubuntu-victim sshd[1608]: Server listening on :: port 22.
+2026-11-04T17:32:16.056868+00:00 ubuntu-victim sshd-session[1610]: Connection closed by 192.168.56.101 port 51932 [preauth]
+2026-11-04T17:32:34.659957+00:00 ubuntu-victim sshd-session[1612]: Accepted password for labuser from 192.168.56.101 port 36022 ssh2
+2026-11-04T17:32:34.665587+00:00 ubuntu-victim sshd-session[1612]: pam_unix(sshd:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-04T17:32:34.674322+00:00 ubuntu-victim systemd-logind[1013]: New session '3' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-04T17:32:43.534777+00:00 ubuntu-victim sshd-session[1612]: syslogin_perform_logout: logout() returned an error
+2026-11-04T17:32:43.537592+00:00 ubuntu-victim sshd-session[1669]: Received disconnect from 192.168.56.101 port 36022:11: disconnected by user
+2026-11-04T17:32:43.542143+00:00 ubuntu-victim sshd-session[1669]: Disconnected from user labuser 192.168.56.101 port 36022
+2026-11-04T17:32:43.542222+00:00 ubuntu-victim sshd-session[1612]: pam_unix(sshd:session): session closed for user labuser
+2026-11-04T17:32:43.548511+00:00 ubuntu-victim systemd-logind[1013]: Session 3 logged out. Waiting for processes to exit.
+2026-11-04T17:32:43.553439+00:00 ubuntu-victim systemd-logind[1013]: Removed session 3.
+2026-11-04T17:33:40.010420+00:00 ubuntu-victim sudo: pam_unix(sudo:session): session opened for user root(uid=0) by labuser(uid=1000)
+2026-11-04T17:33:40.010835+00:00 ubuntu-victim sudo: labuser : TTY=/dev/tty1 ; PWD=/home/labuser ; USER=root ; COMMAND=/usr/bin/tail -n 20 /ver/log/auth.log
+2026-11-04T17:33:40.018970+00:00 ubuntu-victim sudo: pam_unix(sudo:session): session closed for user root
+2026-11-04T17:34:06.885120+00:00 ubuntu-victim sudo: pam_unix(sudo:session): session opened for user root(uid=0) by labuser(uid=1000)
+2026-11-04T17:34:06.885990+00:00 ubuntu-victim sudo: labuser : TTY=/dev/tty1 ; PWD=/home/labuser ; USER=root ; COMMAND=/usr/bin/tail -n 20 /var/log/auth.log
+2026-11-04T17:34:06.903666+00:00 ubuntu-victim sudo: pam_unix(sudo:session): session closed for user root
+2026-11-05T19:29:16.272114+00:00 ubuntu-victim systemd-logind[1016]: New seat seat0.
+2026-11-05T19:29:16.272207+00:00 ubuntu-victim systemd-logind[1016]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-11-05T19:29:16.272220+00:00 ubuntu-victim systemd-logind[1016]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-11-05T19:29:16.272222+00:00 ubuntu-victim systemd-logind[1016]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-11-05T19:31:36.130981+00:00 ubuntu-victim login: pam_unix(login:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-05T19:31:36.170193+00:00 ubuntu-victim systemd-logind[1016]: New session '1' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-05T19:31:36.272138+00:00 ubuntu-victim (systemd): pam_unix(systemd-user:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-05T19:31:36.273881+00:00 ubuntu-victim systemd-logind[1016]: New session '2' of user 'labuser' with class 'manager' and type 'unspecified'.
+2026-11-05T19:33:27.279192+00:00 ubuntu-victim sshd[1489]: Server listening on 0.0.0.0 port 22.
+2026-11-05T19:33:27.279365+00:00 ubuntu-victim sshd[1489]: Server listening on :: port 22.
+2026-11-05T19:33:30.529448+00:00 ubuntu-victim unix_chkpwd[1493]: password check failed for user (labuser)
+2026-11-05T19:33:30.531155+00:00 ubuntu-victim sshd-session[1491]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T19:33:32.844768+00:00 ubuntu-victim sshd-session[1491]: Failed password for labuser from 192.168.56.101 port 56980 ssh2
+2026-11-05T19:33:46.186933+00:00 ubuntu-victim sshd-session[1491]: Accepted password for labuser from 192.168.56.101 port 56980 ssh2
+2026-11-05T19:33:46.193103+00:00 ubuntu-victim sshd-session[1491]: pam_unix(sshd:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-05T19:33:46.199409+00:00 ubuntu-victim systemd-logind[1016]: New session '3' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-05T19:34:45.424779+00:00 ubuntu-victim sshd-session[1491]: syslogin_perform_logout: logout() returned an error
+2026-11-05T19:34:45.426651+00:00 ubuntu-victim sshd-session[1548]: Received disconnect from 192.168.56.101 port 56980:11: disconnected by user
+2026-11-05T19:34:45.435405+00:00 ubuntu-victim sshd-session[1548]: Disconnected from user labuser 192.168.56.101 port 56980
+2026-11-05T19:34:45.437324+00:00 ubuntu-victim sshd-session[1491]: pam_unix(sshd:session): session closed for user labuser
+2026-11-05T19:34:45.438500+00:00 ubuntu-victim systemd-logind[1016]: Session 3 logged out. Waiting for processes to exit.
+2026-11-05T19:34:45.442525+00:00 ubuntu-victim systemd-logind[1016]: Removed session 3.
+2026-11-05T19:35:42.569460+00:00 ubuntu-victim sudo: pam_unix(sudo:session): session opened for user root(uid=0) by labuser(uid=1000)
+2026-11-05T19:35:42.569863+00:00 ubuntu-victim sudo: labuser : TTY=/dev/tty1 ; PWD=/home/labuser ; USER=root ; COMMAND=/usr/bin/tail -n 20 /var/log/auth.log
+2026-11-05T19:35:42.580255+00:00 ubuntu-victim sudo: pam_unix(sudo:session): session closed for user root
+2026-11-05T20:12:56.908149+00:00 ubuntu-victim systemd-logind[2716]: New seat seat0.
+2026-11-05T20:12:56.918397+00:00 ubuntu-victim systemd-logind[2716]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-11-05T20:12:56.918653+00:00 ubuntu-victim systemd-logind[2716]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-11-05T20:12:56.922238+00:00 ubuntu-victim systemd-logind[2716]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-11-05T20:12:56.942221+00:00 ubuntu-victim systemd-logind[2716]: New session '2' of user 'labuser' with class 'manager' and type 'unspecified'.
+2026-11-05T20:12:56.951269+00:00 ubuntu-victim systemd-logind[2716]: New session '1' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-05T20:14:30.254096+00:00 ubuntu-victim sshd-session[2766]: Received disconnect from 192.168.56.101 port 40544:11: Bye Bye [preauth]
+2026-11-05T20:14:30.255812+00:00 ubuntu-victim sshd-session[2766]: Disconnected from authenticating user labuser 192.168.56.101 port 40544 [preauth]
+2026-11-05T20:14:30.724410+00:00 ubuntu-victim unix_chkpwd[2776]: password check failed for user (labuser)
+2026-11-05T20:14:30.725868+00:00 ubuntu-victim sshd-session[2768]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:14:30.765464+00:00 ubuntu-victim unix_chkpwd[2777]: password check failed for user (labuser)
+2026-11-05T20:14:30.766628+00:00 ubuntu-victim sshd-session[2771]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:14:30.768958+00:00 ubuntu-victim unix_chkpwd[2779]: password check failed for user (labuser)
+2026-11-05T20:14:30.770627+00:00 ubuntu-victim sshd-session[2769]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:14:30.772155+00:00 ubuntu-victim unix_chkpwd[2778]: password check failed for user (labuser)
+2026-11-05T20:14:30.772458+00:00 ubuntu-victim sshd-session[2770]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:14:32.618348+00:00 ubuntu-victim sshd-session[2769]: Failed password for labuser from 192.168.56.101 port 40564 ssh2
+2026-11-05T20:14:32.618548+00:00 ubuntu-victim sshd-session[2770]: Failed password for labuser from 192.168.56.101 port 40566 ssh2
+2026-11-05T20:14:32.916444+00:00 ubuntu-victim unix_chkpwd[2780]: password check failed for user (labuser)
+2026-11-05T20:14:35.218788+00:00 ubuntu-victim sshd-session[2770]: Failed password for labuser from 192.168.56.101 port 40566 ssh2
+2026-11-05T20:14:36.569478+00:00 ubuntu-victim sshd-session[2771]: Failed password for labuser from 192.168.56.101 port 40568 ssh2
+2026-11-05T20:14:36.569812+00:00 ubuntu-victim sshd-session[2768]: Failed password for labuser from 192.168.56.101 port 40556 ssh2
+2026-11-05T20:14:36.575654+00:00 ubuntu-victim unix_chkpwd[2781]: password check failed for user (labuser)
+2026-11-05T20:14:36.585444+00:00 ubuntu-victim unix_chkpwd[2782]: password check failed for user (labuser)
+2026-11-05T20:14:36.586432+00:00 ubuntu-victim unix_chkpwd[2783]: password check failed for user (labuser)
+2026-11-05T20:14:37.619207+00:00 ubuntu-victim unix_chkpwd[2784]: password check failed for user (labuser)
+2026-11-05T20:14:38.338563+00:00 ubuntu-victim sshd-session[2771]: Failed password for labuser from 192.168.56.101 port 40568 ssh2
+2026-11-05T20:14:38.544936+00:00 ubuntu-victim sshd-session[2768]: Failed password for labuser from 192.168.56.101 port 40556 ssh2
+2026-11-05T20:14:38.941176+00:00 ubuntu-victim unix_chkpwd[2785]: password check failed for user (labuser)
+2026-11-05T20:14:38.941962+00:00 ubuntu-victim unix_chkpwd[2786]: password check failed for user (labuser)
+2026-11-05T20:14:39.074568+00:00 ubuntu-victim sshd-session[2769]: Failed password for labuser from 192.168.56.101 port 40564 ssh2
+2026-11-05T20:14:40.351325+00:00 ubuntu-victim sshd-session[2768]: Failed password for labuser from 192.168.56.101 port 40556 ssh2
+2026-11-05T20:14:40.965986+00:00 ubuntu-victim sshd-session[2770]: Failed password for labuser from 192.168.56.101 port 40566 ssh2
+2026-11-05T20:14:40.966895+00:00 ubuntu-victim sshd-session[2771]: Failed password for labuser from 192.168.56.101 port 40568 ssh2
+2026-11-05T20:14:40.972570+00:00 ubuntu-victim unix_chkpwd[2787]: password check failed for user (labuser)
+2026-11-05T20:14:41.489358+00:00 ubuntu-victim unix_chkpwd[2788]: password check failed for user (labuser)
+2026-11-05T20:14:41.501239+00:00 ubuntu-victim unix_chkpwd[2789]: password check failed for user (labuser)
+2026-11-05T20:14:43.339341+00:00 ubuntu-victim unix_chkpwd[2790]: password check failed for user (labuser)
+2026-11-05T20:14:43.540635+00:00 ubuntu-victim sshd-session[2768]: Failed password for labuser from 192.168.56.101 port 40556 ssh2
+2026-11-05T20:14:43.705998+00:00 ubuntu-victim sshd-session[2769]: Failed password for labuser from 192.168.56.101 port 40564 ssh2
+2026-11-05T20:14:43.706804+00:00 ubuntu-victim sshd-session[2771]: Failed password for labuser from 192.168.56.101 port 40568 ssh2
+2026-11-05T20:14:43.712012+00:00 ubuntu-victim unix_chkpwd[2791]: password check failed for user (labuser)
+2026-11-05T20:14:45.277012+00:00 ubuntu-victim unix_chkpwd[2792]: password check failed for user (labuser)
+2026-11-05T20:14:46.245269+00:00 ubuntu-victim sshd-session[2768]: Failed password for labuser from 192.168.56.101 port 40556 ssh2
+2026-11-05T20:14:46.635906+00:00 ubuntu-victim sshd-session[2770]: Failed password for labuser from 192.168.56.101 port 40566 ssh2
+2026-11-05T20:14:46.643803+00:00 ubuntu-victim unix_chkpwd[2793]: password check failed for user (labuser)
+2026-11-05T20:14:46.851765+00:00 ubuntu-victim sshd-session[2769]: Failed password for labuser from 192.168.56.101 port 40564 ssh2
+2026-11-05T20:14:47.461485+00:00 ubuntu-victim unix_chkpwd[2794]: password check failed for user (labuser)
+2026-11-05T20:14:47.892079+00:00 ubuntu-victim unix_chkpwd[2795]: password check failed for user (labuser)
+2026-11-05T20:14:48.017825+00:00 ubuntu-victim unix_chkpwd[2796]: password check failed for user (labuser)
+2026-11-05T20:14:48.024767+00:00 ubuntu-victim sshd-session[2771]: Failed password for labuser from 192.168.56.101 port 40568 ssh2
+2026-11-05T20:14:48.962886+00:00 ubuntu-victim unix_chkpwd[2797]: password check failed for user (labuser)
+2026-11-05T20:14:49.717112+00:00 ubuntu-victim sshd-session[2770]: Failed password for labuser from 192.168.56.101 port 40566 ssh2
+2026-11-05T20:14:49.717328+00:00 ubuntu-victim sshd-session[2769]: Failed password for labuser from 192.168.56.101 port 40564 ssh2
+2026-11-05T20:14:50.069688+00:00 ubuntu-victim sshd-session[2768]: Failed password for labuser from 192.168.56.101 port 40556 ssh2
+2026-11-05T20:14:50.164833+00:00 ubuntu-victim sshd-session[2768]: error: maximum authentication attempts exceeded for labuser from 192.168.56.101 port 40556 ssh2 [preauth]
+2026-11-05T20:14:50.165990+00:00 ubuntu-victim sshd-session[2768]: Disconnecting authenticating user labuser 192.168.56.101 port 40556: Too many authentication failures [preauth]
+2026-11-05T20:14:50.166242+00:00 ubuntu-victim sshd-session[2768]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:14:50.166379+00:00 ubuntu-victim sshd-session[2768]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-11-05T20:14:50.399767+00:00 ubuntu-victim unix_chkpwd[2800]: password check failed for user (labuser)
+2026-11-05T20:14:50.400981+00:00 ubuntu-victim sshd-session[2798]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:14:50.911064+00:00 ubuntu-victim unix_chkpwd[2801]: password check failed for user (labuser)
+2026-11-05T20:14:51.477963+00:00 ubuntu-victim sshd-session[2771]: Failed password for labuser from 192.168.56.101 port 40568 ssh2
+2026-11-05T20:14:51.767658+00:00 ubuntu-victim unix_chkpwd[2802]: password check failed for user (labuser)
+2026-11-05T20:14:52.609937+00:00 ubuntu-victim sshd-session[2770]: Failed password for labuser from 192.168.56.101 port 40566 ssh2
+2026-11-05T20:14:54.113536+00:00 ubuntu-victim sshd-session[2798]: Failed password for labuser from 192.168.56.101 port 52656 ssh2
+2026-11-05T20:14:54.115609+00:00 ubuntu-victim sshd-session[2771]: error: maximum authentication attempts exceeded for labuser from 192.168.56.101 port 40568 ssh2 [preauth]
+2026-11-05T20:14:54.115698+00:00 ubuntu-victim sshd-session[2771]: Disconnecting authenticating user labuser 192.168.56.101 port 40568: Too many authentication failures [preauth]
+2026-11-05T20:14:54.118699+00:00 ubuntu-victim sshd-session[2770]: error: maximum authentication attempts exceeded for labuser from 192.168.56.101 port 40566 ssh2 [preauth]
+2026-11-05T20:14:54.118786+00:00 ubuntu-victim sshd-session[2770]: Disconnecting authenticating user labuser 192.168.56.101 port 40566: Too many authentication failures [preauth]
+2026-11-05T20:14:54.118803+00:00 ubuntu-victim sshd-session[2770]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:14:54.118815+00:00 ubuntu-victim sshd-session[2770]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-11-05T20:14:54.124824+00:00 ubuntu-victim sshd-session[2771]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:14:54.125030+00:00 ubuntu-victim sshd-session[2771]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-11-05T20:14:54.194734+00:00 ubuntu-victim unix_chkpwd[2807]: password check failed for user (labuser)
+2026-11-05T20:14:54.195330+00:00 ubuntu-victim sshd-session[2803]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:14:54.197921+00:00 ubuntu-victim unix_chkpwd[2808]: password check failed for user (labuser)
+2026-11-05T20:14:54.198126+00:00 ubuntu-victim sshd-session[2804]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:14:54.229440+00:00 ubuntu-victim sshd-session[2769]: Failed password for labuser from 192.168.56.101 port 40564 ssh2
+2026-11-05T20:14:54.853215+00:00 ubuntu-victim unix_chkpwd[2809]: password check failed for user (labuser)
+2026-11-05T20:14:56.351752+00:00 ubuntu-victim sshd-session[2803]: Failed password for labuser from 192.168.56.101 port 52666 ssh2
+2026-11-05T20:14:56.531248+00:00 ubuntu-victim sshd-session[2769]: error: maximum authentication attempts exceeded for labuser from 192.168.56.101 port 40564 ssh2 [preauth]
+2026-11-05T20:14:56.531393+00:00 ubuntu-victim sshd-session[2769]: Disconnecting authenticating user labuser 192.168.56.101 port 40564: Too many authentication failures [preauth]
+2026-11-05T20:14:56.532724+00:00 ubuntu-victim sshd-session[2804]: Failed password for labuser from 192.168.56.101 port 52678 ssh2
+2026-11-05T20:14:56.534440+00:00 ubuntu-victim sshd-session[2769]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:14:56.534463+00:00 ubuntu-victim sshd-session[2769]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-11-05T20:14:56.600657+00:00 ubuntu-victim unix_chkpwd[2812]: password check failed for user (labuser)
+2026-11-05T20:14:56.601056+00:00 ubuntu-victim sshd-session[2810]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:14:56.972331+00:00 ubuntu-victim sshd-session[2798]: Failed password for labuser from 192.168.56.101 port 52656 ssh2
+2026-11-05T20:14:57.017520+00:00 ubuntu-victim unix_chkpwd[2813]: password check failed for user (labuser)
+2026-11-05T20:14:58.152300+00:00 ubuntu-victim sshd-session[2810]: Failed password for labuser from 192.168.56.101 port 56010 ssh2
+2026-11-05T20:14:58.506192+00:00 ubuntu-victim unix_chkpwd[2814]: password check failed for user (labuser)
+2026-11-05T20:14:58.508580+00:00 ubuntu-victim unix_chkpwd[2815]: password check failed for user (labuser)
+2026-11-05T20:14:59.010705+00:00 ubuntu-victim unix_chkpwd[2816]: password check failed for user (labuser)
+2026-11-05T20:14:59.456392+00:00 ubuntu-victim sshd-session[2798]: Failed password for labuser from 192.168.56.101 port 52656 ssh2
+2026-11-05T20:15:00.623881+00:00 ubuntu-victim sshd-session[2804]: Failed password for labuser from 192.168.56.101 port 52678 ssh2
+2026-11-05T20:15:00.669802+00:00 ubuntu-victim unix_chkpwd[2817]: password check failed for user (labuser)
+2026-11-05T20:15:00.733486+00:00 ubuntu-victim sshd-session[2803]: Failed password for labuser from 192.168.56.101 port 52666 ssh2
+2026-11-05T20:15:00.946754+00:00 ubuntu-victim sshd-session[2810]: Failed password for labuser from 192.168.56.101 port 56010 ssh2
+2026-11-05T20:15:01.547744+00:00 ubuntu-victim unix_chkpwd[2818]: password check failed for user (labuser)
+2026-11-05T20:15:01.548764+00:00 ubuntu-victim unix_chkpwd[2819]: password check failed for user (labuser)
+2026-11-05T20:15:02.030209+00:00 ubuntu-victim sshd-session[2804]: Failed password for labuser from 192.168.56.101 port 52678 ssh2
+2026-11-05T20:15:02.797697+00:00 ubuntu-victim unix_chkpwd[2820]: password check failed for user (labuser)
+2026-11-05T20:15:02.825556+00:00 ubuntu-victim unix_chkpwd[2821]: password check failed for user (labuser)
+2026-11-05T20:15:03.352654+00:00 ubuntu-victim sshd-session[2810]: Failed password for labuser from 192.168.56.101 port 56010 ssh2
+2026-11-05T20:15:03.831178+00:00 ubuntu-victim sshd-session[2798]: Failed password for labuser from 192.168.56.101 port 52656 ssh2
+2026-11-05T20:15:03.846220+00:00 ubuntu-victim unix_chkpwd[2822]: password check failed for user (labuser)
+2026-11-05T20:15:04.578171+00:00 ubuntu-victim sshd-session[2803]: Failed password for labuser from 192.168.56.101 port 52666 ssh2
+2026-11-05T20:15:04.955477+00:00 ubuntu-victim unix_chkpwd[2823]: password check failed for user (labuser)
+2026-11-05T20:15:05.182736+00:00 ubuntu-victim sshd-session[2804]: Failed password for labuser from 192.168.56.101 port 52678 ssh2
+2026-11-05T20:15:06.639351+00:00 ubuntu-victim sshd-session[2810]: Failed password for labuser from 192.168.56.101 port 56010 ssh2
+2026-11-05T20:15:06.645528+00:00 ubuntu-victim unix_chkpwd[2824]: password check failed for user (labuser)
+2026-11-05T20:15:07.128531+00:00 ubuntu-victim unix_chkpwd[2825]: password check failed for user (labuser)
+2026-11-05T20:15:08.481563+00:00 ubuntu-victim sshd-session[2803]: Failed password for labuser from 192.168.56.101 port 52666 ssh2
+2026-11-05T20:15:08.487028+00:00 ubuntu-victim unix_chkpwd[2826]: password check failed for user (labuser)
+2026-11-05T20:15:09.021349+00:00 ubuntu-victim sshd-session[2798]: Failed password for labuser from 192.168.56.101 port 52656 ssh2
+2026-11-05T20:15:09.263097+00:00 ubuntu-victim unix_chkpwd[2827]: password check failed for user (labuser)
+2026-11-05T20:15:09.555610+00:00 ubuntu-victim sshd-session[2804]: Failed password for labuser from 192.168.56.101 port 52678 ssh2
+2026-11-05T20:15:10.149187+00:00 ubuntu-victim sshd-session[2810]: Failed password for labuser from 192.168.56.101 port 56010 ssh2
+2026-11-05T20:15:11.188357+00:00 ubuntu-victim sshd-session[2798]: Accepted password for labuser from 192.168.56.101 port 52656 ssh2
+2026-11-05T20:15:11.190638+00:00 ubuntu-victim sshd-session[2798]: pam_unix(sshd:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-05T20:15:11.194213+00:00 ubuntu-victim systemd-logind[2716]: New session '4' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-05T20:15:11.194944+00:00 ubuntu-victim unix_chkpwd[2830]: password check failed for user (labuser)
+2026-11-05T20:15:11.249188+00:00 ubuntu-victim sshd-session[2803]: Failed password for labuser from 192.168.56.101 port 52666 ssh2
+2026-11-05T20:15:11.429785+00:00 ubuntu-victim sshd-session[2803]: Connection closed by authenticating user labuser 192.168.56.101 port 52666 [preauth]
+2026-11-05T20:15:11.431050+00:00 ubuntu-victim sshd-session[2803]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:15:11.431072+00:00 ubuntu-victim sshd-session[2803]: PAM service(sshd) ignoring max retries; 5 > 3
+2026-11-05T20:15:11.433934+00:00 ubuntu-victim sshd-session[2804]: Connection closed by authenticating user labuser 192.168.56.101 port 52678 [preauth]
+2026-11-05T20:15:11.435423+00:00 ubuntu-victim sshd-session[2804]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:15:11.435482+00:00 ubuntu-victim sshd-session[2804]: PAM service(sshd) ignoring max retries; 5 > 3
+2026-11-05T20:15:11.637796+00:00 ubuntu-victim sshd-session[2884]: Connection closed by 192.168.56.101 port 52656
+2026-11-05T20:15:11.638341+00:00 ubuntu-victim sshd-session[2798]: pam_unix(sshd:session): session closed for user labuser
+2026-11-05T20:15:11.641990+00:00 ubuntu-victim systemd-logind[2716]: Session 4 logged out. Waiting for processes to exit.
+2026-11-05T20:15:11.643537+00:00 ubuntu-victim systemd-logind[2716]: Removed session 4.
+2026-11-05T20:15:13.113297+00:00 ubuntu-victim sshd-session[2810]: Failed password for labuser from 192.168.56.101 port 56010 ssh2
+2026-11-05T20:15:14.717672+00:00 ubuntu-victim sshd-session[2810]: error: maximum authentication attempts exceeded for labuser from 192.168.56.101 port 56010 ssh2 [preauth]
+2026-11-05T20:15:14.717812+00:00 ubuntu-victim sshd-session[2810]: Disconnecting authenticating user labuser 192.168.56.101 port 56010: Too many authentication failures [preauth]
+2026-11-05T20:15:14.721661+00:00 ubuntu-victim sshd-session[2810]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:15:14.721717+00:00 ubuntu-victim sshd-session[2810]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-11-05T20:15:14.788920+00:00 ubuntu-victim unix_chkpwd[2888]: password check failed for user (labuser)
+2026-11-05T20:15:14.789594+00:00 ubuntu-victim sshd-session[2886]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:15:17.553081+00:00 ubuntu-victim sshd-session[2886]: Failed password for labuser from 192.168.56.101 port 57308 ssh2
+2026-11-05T20:15:19.102615+00:00 ubuntu-victim sshd-session[2886]: Connection closed by authenticating user labuser 192.168.56.101 port 57308 [preauth]
+2026-11-05T20:17:02.556164+00:00 ubuntu-victim CRON[2889]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-05T20:17:02.566080+00:00 ubuntu-victim CRON[2889]: pam_unix(cron:session): session closed for user root
+2026-11-05T20:18:20.198028+00:00 ubuntu-victim sudo: pam_unix(sudo:session): session opened for user root(uid=0) by labuser(uid=1000)
+2026-11-05T20:18:20.206489+00:00 ubuntu-victim sudo: labuser : TTY=/dev/tty1 ; PWD=/home/labuser ; USER=root ; COMMAND=/usr/bin/grep Nov 5 /var/log/auth.log
+2026-11-05T20:18:20.206626+00:00 ubuntu-victim sudo: pam_unix(sudo:session): session closed for user root
+2026-11-05T20:18:53.186250+00:00 ubuntu-victim sudo: pam_unix(sudo:session): session opened for user root(uid=0) by labuser(uid=1000)
+2026-11-05T20:18:53.186480+00:00 ubuntu-victim sudo: labuser : TTY=/dev/tty1 ; PWD=/home/labuser ; USER=root ; COMMAND=/usr/bin/grep Nov  5 /var/log/auth.log
+2026-11-05T20:18:53.189658+00:00 ubuntu-victim sudo: pam_unix(sudo:session): session closed for user root
+2026-11-05T20:19:00.691005+00:00 ubuntu-victim sudo: pam_unix(sudo:session): session opened for user root(uid=0) by labuser(uid=1000)
+2026-11-05T20:19:00.691209+00:00 ubuntu-victim sudo: labuser : TTY=/dev/tty1 ; PWD=/home/labuser ; USER=root ; COMMAND=/usr/bin/grep Nov  5 /var/log/auth.log
+2026-11-05T20:19:00.695103+00:00 ubuntu-victim sudo: pam_unix(sudo:session): session closed for user root
+2026-11-05T20:19:02.618661+00:00 ubuntu-victim sudo: pam_unix(sudo:session): session opened for user root(uid=0) by labuser(uid=1000)
+2026-11-05T20:19:02.618848+00:00 ubuntu-victim sudo: labuser : TTY=/dev/tty1 ; PWD=/home/labuser ; USER=root ; COMMAND=/usr/bin/grep Nov  5 /var/log/auth.log
+2026-11-05T20:19:02.622877+00:00 ubuntu-victim sudo: pam_unix(sudo:session): session closed for user root
+2026-11-05T20:20:48.450522+00:00 ubuntu-victim sudo: pam_unix(sudo:session): session opened for user root(uid=0) by labuser(uid=1000)
+2026-11-05T20:20:48.450809+00:00 ubuntu-victim sudo: labuser : TTY=/dev/tty1 ; PWD=/home/labuser ; USER=root ; COMMAND=/usr/bin/tail -80 /var/log/auth.log
+2026-11-05T20:20:48.476664+00:00 ubuntu-victim sudo: pam_unix(sudo:session): session closed for user root
+2026-11-05T20:27:26.694388+00:00 ubuntu-victim sshd-session[3030]: Accepted password for labuser from 192.168.56.1 port 44841 ssh2
+2026-11-05T20:27:26.695518+00:00 ubuntu-victim sshd-session[3030]: pam_unix(sshd:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-05T20:27:26.706852+00:00 ubuntu-victim systemd-logind[2716]: New session '6' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-05T20:27:27.301666+00:00 ubuntu-victim sshd-session[3087]: Received disconnect from 192.168.56.1 port 44841:11: disconnected by user
+2026-11-05T20:27:27.313989+00:00 ubuntu-victim sshd-session[3087]: Disconnected from user labuser 192.168.56.1 port 44841
+2026-11-05T20:27:27.315947+00:00 ubuntu-victim sshd-session[3030]: pam_unix(sshd:session): session closed for user labuser
+2026-11-05T20:27:27.318756+00:00 ubuntu-victim systemd-logind[2716]: Session 6 logged out. Waiting for processes to exit.
+2026-11-05T20:27:27.321607+00:00 ubuntu-victim systemd-logind[2716]: Removed session 6.
+2026-11-05T20:31:50.195629+00:00 ubuntu-victim sudo: pam_unix(sudo:session): session opened for user root(uid=0) by labuser(uid=1000)
+2026-11-05T20:31:50.204833+00:00 ubuntu-victim sudo: labuser : TTY=/dev/tty1 ; PWD=/home/labuser ; USER=root ; COMMAND=/usr/bin/passwd labuser
+2026-11-05T20:32:10.325471+00:00 ubuntu-victim passwd[3108]: pam_unix(passwd:chauthtok): password changed for labuser
+2026-11-05T20:32:10.326942+00:00 ubuntu-victim sudo: pam_unix(sudo:session): session closed for user root
+2026-11-05T20:33:54.008313+00:00 ubuntu-victim sshd-session[3121]: Accepted password for labuser from 192.168.56.101 port 37598 ssh2
+2026-11-05T20:33:54.010418+00:00 ubuntu-victim sshd-session[3121]: pam_unix(sshd:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-05T20:33:54.019979+00:00 ubuntu-victim systemd-logind[2716]: New session '7' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-05T20:34:03.755016+00:00 ubuntu-victim sshd-session[3121]: syslogin_perform_logout: logout() returned an error
+2026-11-05T20:34:03.756878+00:00 ubuntu-victim sshd-session[3220]: Received disconnect from 192.168.56.101 port 37598:11: disconnected by user
+2026-11-05T20:34:03.757683+00:00 ubuntu-victim sshd-session[3220]: Disconnected from user labuser 192.168.56.101 port 37598
+2026-11-05T20:34:03.759836+00:00 ubuntu-victim sshd-session[3121]: pam_unix(sshd:session): session closed for user labuser
+2026-11-05T20:34:03.764490+00:00 ubuntu-victim systemd-logind[2716]: Session 7 logged out. Waiting for processes to exit.
+2026-11-05T20:34:03.767561+00:00 ubuntu-victim systemd-logind[2716]: Removed session 7.
+2026-11-05T20:34:41.577030+00:00 ubuntu-victim sshd-session[3272]: Received disconnect from 192.168.56.101 port 57154:11: Bye Bye [preauth]
+2026-11-05T20:34:41.577376+00:00 ubuntu-victim sshd-session[3272]: Disconnected from authenticating user labuser 192.168.56.101 port 57154 [preauth]
+2026-11-05T20:34:41.973542+00:00 ubuntu-victim unix_chkpwd[3285]: password check failed for user (labuser)
+2026-11-05T20:34:41.993388+00:00 ubuntu-victim unix_chkpwd[3282]: password check failed for user (labuser)
+2026-11-05T20:34:41.994932+00:00 ubuntu-victim sshd-session[3276]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:34:42.019378+00:00 ubuntu-victim unix_chkpwd[3283]: password check failed for user (labuser)
+2026-11-05T20:34:42.023768+00:00 ubuntu-victim sshd-session[3274]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:34:42.024368+00:00 ubuntu-victim sshd-session[3277]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:34:42.048862+00:00 ubuntu-victim unix_chkpwd[3284]: password check failed for user (labuser)
+2026-11-05T20:34:42.049207+00:00 ubuntu-victim sshd-session[3275]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:34:43.479310+00:00 ubuntu-victim sshd-session[3275]: Failed password for labuser from 192.168.56.101 port 57184 ssh2
+2026-11-05T20:34:43.606434+00:00 ubuntu-victim sshd-session[3276]: Failed password for labuser from 192.168.56.101 port 57200 ssh2
+2026-11-05T20:34:43.961889+00:00 ubuntu-victim sshd-session[3277]: Failed password for labuser from 192.168.56.101 port 57210 ssh2
+2026-11-05T20:34:44.114164+00:00 ubuntu-victim unix_chkpwd[3287]: password check failed for user (labuser)
+2026-11-05T20:34:44.123950+00:00 ubuntu-victim unix_chkpwd[3286]: password check failed for user (labuser)
+2026-11-05T20:34:44.259206+00:00 ubuntu-victim sshd-session[3274]: Failed password for labuser from 192.168.56.101 port 57170 ssh2
+2026-11-05T20:34:44.326839+00:00 ubuntu-victim unix_chkpwd[3288]: password check failed for user (labuser)
+2026-11-05T20:34:45.609698+00:00 ubuntu-victim sshd-session[3276]: Failed password for labuser from 192.168.56.101 port 57200 ssh2
+2026-11-05T20:34:46.296715+00:00 ubuntu-victim unix_chkpwd[3289]: password check failed for user (labuser)
+2026-11-05T20:34:46.551310+00:00 ubuntu-victim sshd-session[3275]: Failed password for labuser from 192.168.56.101 port 57184 ssh2
+2026-11-05T20:34:46.609452+00:00 ubuntu-victim unix_chkpwd[3290]: password check failed for user (labuser)
+2026-11-05T20:34:47.061096+00:00 ubuntu-victim sshd-session[3277]: Failed password for labuser from 192.168.56.101 port 57210 ssh2
+2026-11-05T20:34:48.462693+00:00 ubuntu-victim unix_chkpwd[3291]: password check failed for user (labuser)
+2026-11-05T20:34:48.470173+00:00 ubuntu-victim sshd-session[3276]: Failed password for labuser from 192.168.56.101 port 57200 ssh2
+2026-11-05T20:34:48.648865+00:00 ubuntu-victim unix_chkpwd[3292]: password check failed for user (labuser)
+2026-11-05T20:34:50.429890+00:00 ubuntu-victim sshd-session[3274]: Failed password for labuser from 192.168.56.101 port 57170 ssh2
+2026-11-05T20:34:50.611724+00:00 ubuntu-victim unix_chkpwd[3293]: password check failed for user (labuser)
+2026-11-05T20:34:50.896491+00:00 ubuntu-victim sshd-session[3275]: Failed password for labuser from 192.168.56.101 port 57184 ssh2
+2026-11-05T20:34:50.896877+00:00 ubuntu-victim sshd-session[3277]: Failed password for labuser from 192.168.56.101 port 57210 ssh2
+2026-11-05T20:34:50.964463+00:00 ubuntu-victim unix_chkpwd[3294]: password check failed for user (labuser)
+2026-11-05T20:34:52.731879+00:00 ubuntu-victim sshd-session[3276]: Failed password for labuser from 192.168.56.101 port 57200 ssh2
+2026-11-05T20:34:52.778309+00:00 ubuntu-victim unix_chkpwd[3295]: password check failed for user (labuser)
+2026-11-05T20:34:53.304154+00:00 ubuntu-victim unix_chkpwd[3296]: password check failed for user (labuser)
+2026-11-05T20:34:53.485890+00:00 ubuntu-victim sshd-session[3274]: Failed password for labuser from 192.168.56.101 port 57170 ssh2
+2026-11-05T20:34:54.595068+00:00 ubuntu-victim sshd-session[3275]: Failed password for labuser from 192.168.56.101 port 57184 ssh2
+2026-11-05T20:34:54.898036+00:00 ubuntu-victim unix_chkpwd[3297]: password check failed for user (labuser)
+2026-11-05T20:34:54.952671+00:00 ubuntu-victim unix_chkpwd[3298]: password check failed for user (labuser)
+2026-11-05T20:34:55.340781+00:00 ubuntu-victim sshd-session[3277]: Failed password for labuser from 192.168.56.101 port 57210 ssh2
+2026-11-05T20:34:55.381245+00:00 ubuntu-victim unix_chkpwd[3299]: password check failed for user (labuser)
+2026-11-05T20:34:55.435818+00:00 ubuntu-victim unix_chkpwd[3300]: password check failed for user (labuser)
+2026-11-05T20:34:56.772756+00:00 ubuntu-victim sshd-session[3276]: Failed password for labuser from 192.168.56.101 port 57200 ssh2
+2026-11-05T20:34:56.997129+00:00 ubuntu-victim sshd-session[3275]: Failed password for labuser from 192.168.56.101 port 57184 ssh2
+2026-11-05T20:34:57.064854+00:00 ubuntu-victim unix_chkpwd[3301]: password check failed for user (labuser)
+2026-11-05T20:34:57.108711+00:00 ubuntu-victim unix_chkpwd[3302]: password check failed for user (labuser)
+2026-11-05T20:34:57.607806+00:00 ubuntu-victim sshd-session[3274]: Failed password for labuser from 192.168.56.101 port 57170 ssh2
+2026-11-05T20:34:57.855454+00:00 ubuntu-victim sshd-session[3277]: Failed password for labuser from 192.168.56.101 port 57210 ssh2
+2026-11-05T20:34:59.329134+00:00 ubuntu-victim sshd-session[3275]: Failed password for labuser from 192.168.56.101 port 57184 ssh2
+2026-11-05T20:34:59.468397+00:00 ubuntu-victim sshd-session[3276]: Failed password for labuser from 192.168.56.101 port 57200 ssh2
+2026-11-05T20:34:59.963125+00:00 ubuntu-victim unix_chkpwd[3304]: password check failed for user (labuser)
+2026-11-05T20:34:59.979406+00:00 ubuntu-victim unix_chkpwd[3303]: password check failed for user (labuser)
+2026-11-05T20:35:01.324121+00:00 ubuntu-victim sshd-session[3276]: error: maximum authentication attempts exceeded for labuser from 192.168.56.101 port 57200 ssh2 [preauth]
+2026-11-05T20:35:01.324328+00:00 ubuntu-victim sshd-session[3276]: Disconnecting authenticating user labuser 192.168.56.101 port 57200: Too many authentication failures [preauth]
+2026-11-05T20:35:01.324406+00:00 ubuntu-victim sshd-session[3276]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:35:01.324439+00:00 ubuntu-victim sshd-session[3276]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-11-05T20:35:01.356233+00:00 ubuntu-victim sshd-session[3275]: error: maximum authentication attempts exceeded for labuser from 192.168.56.101 port 57184 ssh2 [preauth]
+2026-11-05T20:35:01.356448+00:00 ubuntu-victim sshd-session[3275]: Disconnecting authenticating user labuser 192.168.56.101 port 57184: Too many authentication failures [preauth]
+2026-11-05T20:35:01.356467+00:00 ubuntu-victim sshd-session[3275]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:35:01.356479+00:00 ubuntu-victim sshd-session[3275]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-11-05T20:35:01.443523+00:00 ubuntu-victim unix_chkpwd[3309]: password check failed for user (labuser)
+2026-11-05T20:35:01.445482+00:00 ubuntu-victim sshd-session[3305]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:35:01.488077+00:00 ubuntu-victim unix_chkpwd[3310]: password check failed for user (labuser)
+2026-11-05T20:35:01.488748+00:00 ubuntu-victim sshd-session[3307]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:35:02.066173+00:00 ubuntu-victim sshd-session[3277]: Failed password for labuser from 192.168.56.101 port 57210 ssh2
+2026-11-05T20:35:02.073849+00:00 ubuntu-victim sshd-session[3277]: error: maximum authentication attempts exceeded for labuser from 192.168.56.101 port 57210 ssh2 [preauth]
+2026-11-05T20:35:02.073933+00:00 ubuntu-victim sshd-session[3277]: Disconnecting authenticating user labuser 192.168.56.101 port 57210: Too many authentication failures [preauth]
+2026-11-05T20:35:02.073947+00:00 ubuntu-victim sshd-session[3277]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:35:02.074849+00:00 ubuntu-victim sshd-session[3277]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-11-05T20:35:02.210582+00:00 ubuntu-victim unix_chkpwd[3313]: password check failed for user (labuser)
+2026-11-05T20:35:02.213979+00:00 ubuntu-victim sshd-session[3311]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:35:02.738463+00:00 ubuntu-victim sshd-session[3274]: Failed password for labuser from 192.168.56.101 port 57170 ssh2
+2026-11-05T20:35:03.479920+00:00 ubuntu-victim sshd-session[3307]: Failed password for labuser from 192.168.56.101 port 35286 ssh2
+2026-11-05T20:35:03.850187+00:00 ubuntu-victim sshd-session[3311]: Failed password for labuser from 192.168.56.101 port 35302 ssh2
+2026-11-05T20:35:03.864714+00:00 ubuntu-victim sshd-session[3305]: Failed password for labuser from 192.168.56.101 port 35272 ssh2
+2026-11-05T20:35:03.908500+00:00 ubuntu-victim unix_chkpwd[3314]: password check failed for user (labuser)
+2026-11-05T20:35:04.848581+00:00 ubuntu-victim unix_chkpwd[3316]: password check failed for user (labuser)
+2026-11-05T20:35:04.850569+00:00 ubuntu-victim unix_chkpwd[3315]: password check failed for user (labuser)
+2026-11-05T20:35:07.656748+00:00 ubuntu-victim sshd-session[3307]: Failed password for labuser from 192.168.56.101 port 35286 ssh2
+2026-11-05T20:35:07.659678+00:00 ubuntu-victim sshd-session[3274]: Failed password for labuser from 192.168.56.101 port 57170 ssh2
+2026-11-05T20:35:07.660040+00:00 ubuntu-victim sshd-session[3311]: Failed password for labuser from 192.168.56.101 port 35302 ssh2
+2026-11-05T20:35:07.704929+00:00 ubuntu-victim unix_chkpwd[3317]: password check failed for user (labuser)
+2026-11-05T20:35:08.239631+00:00 ubuntu-victim unix_chkpwd[3318]: password check failed for user (labuser)
+2026-11-05T20:35:10.171515+00:00 ubuntu-victim sshd-session[3305]: Failed password for labuser from 192.168.56.101 port 35272 ssh2
+2026-11-05T20:35:10.226845+00:00 ubuntu-victim sshd-session[3274]: error: maximum authentication attempts exceeded for labuser from 192.168.56.101 port 57170 ssh2 [preauth]
+2026-11-05T20:35:10.226931+00:00 ubuntu-victim sshd-session[3274]: Disconnecting authenticating user labuser 192.168.56.101 port 57170: Too many authentication failures [preauth]
+2026-11-05T20:35:10.226948+00:00 ubuntu-victim sshd-session[3274]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:35:10.226967+00:00 ubuntu-victim sshd-session[3274]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-11-05T20:35:10.226999+00:00 ubuntu-victim unix_chkpwd[3321]: password check failed for user (labuser)
+2026-11-05T20:35:10.354628+00:00 ubuntu-victim unix_chkpwd[3324]: password check failed for user (labuser)
+2026-11-05T20:35:10.355128+00:00 ubuntu-victim sshd-session[3322]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:35:11.391990+00:00 ubuntu-victim sshd-session[3307]: Failed password for labuser from 192.168.56.101 port 35286 ssh2
+2026-11-05T20:35:12.364358+00:00 ubuntu-victim sshd-session[3311]: Failed password for labuser from 192.168.56.101 port 35302 ssh2
+2026-11-05T20:35:12.512518+00:00 ubuntu-victim sshd-session[3322]: Failed password for labuser from 192.168.56.101 port 38138 ssh2
+2026-11-05T20:35:12.574569+00:00 ubuntu-victim unix_chkpwd[3325]: password check failed for user (labuser)
+2026-11-05T20:35:12.590397+00:00 ubuntu-victim unix_chkpwd[3326]: password check failed for user (labuser)
+2026-11-05T20:35:14.563237+00:00 ubuntu-victim unix_chkpwd[3327]: password check failed for user (labuser)
+2026-11-05T20:35:14.564446+00:00 ubuntu-victim sshd-session[3305]: Failed password for labuser from 192.168.56.101 port 35272 ssh2
+2026-11-05T20:35:14.729601+00:00 ubuntu-victim sshd-session[3307]: Failed password for labuser from 192.168.56.101 port 35286 ssh2
+2026-11-05T20:35:15.055856+00:00 ubuntu-victim unix_chkpwd[3329]: password check failed for user (labuser)
+2026-11-05T20:35:15.066137+00:00 ubuntu-victim unix_chkpwd[3328]: password check failed for user (labuser)
+2026-11-05T20:35:16.491295+00:00 ubuntu-victim sshd-session[3311]: Failed password for labuser from 192.168.56.101 port 35302 ssh2
+2026-11-05T20:35:16.746562+00:00 ubuntu-victim unix_chkpwd[3330]: password check failed for user (labuser)
+2026-11-05T20:35:16.876884+00:00 ubuntu-victim sshd-session[3322]: Failed password for labuser from 192.168.56.101 port 38138 ssh2
+2026-11-05T20:35:17.227761+00:00 ubuntu-victim unix_chkpwd[3331]: password check failed for user (labuser)
+2026-11-05T20:35:19.158507+00:00 ubuntu-victim sshd-session[3311]: Failed password for labuser from 192.168.56.101 port 35302 ssh2
+2026-11-05T20:35:19.451039+00:00 ubuntu-victim sshd-session[3322]: Failed password for labuser from 192.168.56.101 port 38138 ssh2
+2026-11-05T20:35:19.453006+00:00 ubuntu-victim sshd-session[3305]: Failed password for labuser from 192.168.56.101 port 35272 ssh2
+2026-11-05T20:35:19.506222+00:00 ubuntu-victim unix_chkpwd[3332]: password check failed for user (labuser)
+2026-11-05T20:35:21.154831+00:00 ubuntu-victim unix_chkpwd[3333]: password check failed for user (labuser)
+2026-11-05T20:35:21.524100+00:00 ubuntu-victim unix_chkpwd[3334]: password check failed for user (labuser)
+2026-11-05T20:35:22.681794+00:00 ubuntu-victim sshd-session[3307]: Failed password for labuser from 192.168.56.101 port 35286 ssh2
+2026-11-05T20:35:23.288237+00:00 ubuntu-victim sshd-session[3311]: Failed password for labuser from 192.168.56.101 port 35302 ssh2
+2026-11-05T20:35:23.807887+00:00 ubuntu-victim unix_chkpwd[3336]: password check failed for user (labuser)
+2026-11-05T20:35:23.819562+00:00 ubuntu-victim unix_chkpwd[3335]: password check failed for user (labuser)
+2026-11-05T20:35:23.853414+00:00 ubuntu-victim sshd-session[3322]: Failed password for labuser from 192.168.56.101 port 38138 ssh2
+2026-11-05T20:35:25.410095+00:00 ubuntu-victim sshd-session[3311]: error: maximum authentication attempts exceeded for labuser from 192.168.56.101 port 35302 ssh2 [preauth]
+2026-11-05T20:35:25.410203+00:00 ubuntu-victim sshd-session[3311]: Disconnecting authenticating user labuser 192.168.56.101 port 35302: Too many authentication failures [preauth]
+2026-11-05T20:35:25.410276+00:00 ubuntu-victim sshd-session[3311]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:35:25.410294+00:00 ubuntu-victim sshd-session[3311]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-11-05T20:35:25.536846+00:00 ubuntu-victim unix_chkpwd[3339]: password check failed for user (labuser)
+2026-11-05T20:35:25.538761+00:00 ubuntu-victim sshd-session[3337]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:35:25.817268+00:00 ubuntu-victim unix_chkpwd[3340]: password check failed for user (labuser)
+2026-11-05T20:35:26.636246+00:00 ubuntu-victim sshd-session[3305]: Failed password for labuser from 192.168.56.101 port 35272 ssh2
+2026-11-05T20:35:26.636773+00:00 ubuntu-victim sshd-session[3307]: Failed password for labuser from 192.168.56.101 port 35286 ssh2
+2026-11-05T20:35:27.932418+00:00 ubuntu-victim sshd-session[3337]: Failed password for labuser from 192.168.56.101 port 35958 ssh2
+2026-11-05T20:35:28.076992+00:00 ubuntu-victim sshd-session[3307]: error: maximum authentication attempts exceeded for labuser from 192.168.56.101 port 35286 ssh2 [preauth]
+2026-11-05T20:35:28.077239+00:00 ubuntu-victim sshd-session[3307]: Disconnecting authenticating user labuser 192.168.56.101 port 35286: Too many authentication failures [preauth]
+2026-11-05T20:35:28.077279+00:00 ubuntu-victim sshd-session[3307]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:35:28.077310+00:00 ubuntu-victim sshd-session[3307]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-11-05T20:35:28.110871+00:00 ubuntu-victim sshd-session[3322]: Failed password for labuser from 192.168.56.101 port 38138 ssh2
+2026-11-05T20:35:28.368801+00:00 ubuntu-victim unix_chkpwd[3343]: password check failed for user (labuser)
+2026-11-05T20:35:28.370625+00:00 ubuntu-victim sshd-session[3341]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:35:28.377460+00:00 ubuntu-victim unix_chkpwd[3344]: password check failed for user (labuser)
+2026-11-05T20:35:30.212644+00:00 ubuntu-victim unix_chkpwd[3345]: password check failed for user (labuser)
+2026-11-05T20:35:32.484509+00:00 ubuntu-victim sshd-session[3322]: Failed password for labuser from 192.168.56.101 port 38138 ssh2
+2026-11-05T20:35:33.498954+00:00 ubuntu-victim sshd-session[3305]: Failed password for labuser from 192.168.56.101 port 35272 ssh2
+2026-11-05T20:35:33.504698+00:00 ubuntu-victim sshd-session[3305]: error: maximum authentication attempts exceeded for labuser from 192.168.56.101 port 35272 ssh2 [preauth]
+2026-11-05T20:35:33.505034+00:00 ubuntu-victim sshd-session[3305]: Disconnecting authenticating user labuser 192.168.56.101 port 35272: Too many authentication failures [preauth]
+2026-11-05T20:35:33.505839+00:00 ubuntu-victim sshd-session[3341]: Failed password for labuser from 192.168.56.101 port 35960 ssh2
+2026-11-05T20:35:33.522376+00:00 ubuntu-victim sshd-session[3305]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:35:33.522563+00:00 ubuntu-victim sshd-session[3305]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-11-05T20:35:33.567956+00:00 ubuntu-victim unix_chkpwd[3347]: password check failed for user (labuser)
+2026-11-05T20:35:33.577106+00:00 ubuntu-victim unix_chkpwd[3348]: password check failed for user (labuser)
+2026-11-05T20:35:33.647602+00:00 ubuntu-victim unix_chkpwd[3350]: password check failed for user (labuser)
+2026-11-05T20:35:33.647871+00:00 ubuntu-victim sshd-session[3346]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:35:34.481638+00:00 ubuntu-victim sshd-session[3322]: error: maximum authentication attempts exceeded for labuser from 192.168.56.101 port 38138 ssh2 [preauth]
+2026-11-05T20:35:34.481735+00:00 ubuntu-victim sshd-session[3322]: Disconnecting authenticating user labuser 192.168.56.101 port 38138: Too many authentication failures [preauth]
+2026-11-05T20:35:34.481827+00:00 ubuntu-victim sshd-session[3322]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:35:34.481851+00:00 ubuntu-victim sshd-session[3322]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-11-05T20:35:34.621428+00:00 ubuntu-victim unix_chkpwd[3353]: password check failed for user (labuser)
+2026-11-05T20:35:34.621939+00:00 ubuntu-victim sshd-session[3351]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:35:35.664483+00:00 ubuntu-victim sshd-session[3341]: Failed password for labuser from 192.168.56.101 port 35960 ssh2
+2026-11-05T20:35:35.805895+00:00 ubuntu-victim sshd-session[3346]: Failed password for labuser from 192.168.56.101 port 35976 ssh2
+2026-11-05T20:35:37.215334+00:00 ubuntu-victim sshd-session[3351]: Failed password for labuser from 192.168.56.101 port 35986 ssh2
+2026-11-05T20:35:37.566967+00:00 ubuntu-victim sshd-session[3337]: Failed password for labuser from 192.168.56.101 port 35958 ssh2
+2026-11-05T20:35:37.876132+00:00 ubuntu-victim unix_chkpwd[3354]: password check failed for user (labuser)
+2026-11-05T20:35:37.954108+00:00 ubuntu-victim unix_chkpwd[3355]: password check failed for user (labuser)
+2026-11-05T20:35:38.568437+00:00 ubuntu-victim unix_chkpwd[3356]: password check failed for user (labuser)
+2026-11-05T20:35:39.639314+00:00 ubuntu-victim sshd-session[3346]: Failed password for labuser from 192.168.56.101 port 35976 ssh2
+2026-11-05T20:35:40.088952+00:00 ubuntu-victim unix_chkpwd[3357]: password check failed for user (labuser)
+2026-11-05T20:35:40.223319+00:00 ubuntu-victim sshd-session[3341]: Failed password for labuser from 192.168.56.101 port 35960 ssh2
+2026-11-05T20:35:40.275400+00:00 ubuntu-victim unix_chkpwd[3358]: password check failed for user (labuser)
+2026-11-05T20:35:41.787374+00:00 ubuntu-victim sshd-session[3337]: Failed password for labuser from 192.168.56.101 port 35958 ssh2
+2026-11-05T20:35:42.158559+00:00 ubuntu-victim sshd-session[3351]: Failed password for labuser from 192.168.56.101 port 35986 ssh2
+2026-11-05T20:35:42.227667+00:00 ubuntu-victim unix_chkpwd[3359]: password check failed for user (labuser)
+2026-11-05T20:35:42.228314+00:00 ubuntu-victim sshd-session[3346]: Failed password for labuser from 192.168.56.101 port 35976 ssh2
+2026-11-05T20:35:42.552948+00:00 ubuntu-victim unix_chkpwd[3360]: password check failed for user (labuser)
+2026-11-05T20:35:43.272666+00:00 ubuntu-victim unix_chkpwd[3361]: password check failed for user (labuser)
+2026-11-05T20:35:44.408862+00:00 ubuntu-victim unix_chkpwd[3362]: password check failed for user (labuser)
+2026-11-05T20:35:44.582053+00:00 ubuntu-victim sshd-session[3351]: Failed password for labuser from 192.168.56.101 port 35986 ssh2
+2026-11-05T20:35:44.976647+00:00 ubuntu-victim sshd-session[3337]: Failed password for labuser from 192.168.56.101 port 35958 ssh2
+2026-11-05T20:35:44.979289+00:00 ubuntu-victim sshd-session[3341]: Failed password for labuser from 192.168.56.101 port 35960 ssh2
+2026-11-05T20:35:45.028614+00:00 ubuntu-victim unix_chkpwd[3363]: password check failed for user (labuser)
+2026-11-05T20:35:45.434840+00:00 ubuntu-victim unix_chkpwd[3364]: password check failed for user (labuser)
+2026-11-05T20:35:46.536321+00:00 ubuntu-victim unix_chkpwd[3365]: password check failed for user (labuser)
+2026-11-05T20:35:46.614442+00:00 ubuntu-victim sshd-session[3346]: Failed password for labuser from 192.168.56.101 port 35976 ssh2
+2026-11-05T20:35:46.691827+00:00 ubuntu-victim sshd-session[3351]: Failed password for labuser from 192.168.56.101 port 35986 ssh2
+2026-11-05T20:35:47.218288+00:00 ubuntu-victim unix_chkpwd[3366]: password check failed for user (labuser)
+2026-11-05T20:35:47.914176+00:00 ubuntu-victim sshd-session[3337]: Failed password for labuser from 192.168.56.101 port 35958 ssh2
+2026-11-05T20:35:48.295231+00:00 ubuntu-victim sshd-session[3341]: Failed password for labuser from 192.168.56.101 port 35960 ssh2
+2026-11-05T20:35:48.678979+00:00 ubuntu-victim unix_chkpwd[3367]: password check failed for user (labuser)
+2026-11-05T20:35:48.722702+00:00 ubuntu-victim unix_chkpwd[3368]: password check failed for user (labuser)
+2026-11-05T20:35:49.757679+00:00 ubuntu-victim unix_chkpwd[3369]: password check failed for user (labuser)
+2026-11-05T20:35:50.458063+00:00 ubuntu-victim sshd-session[3351]: Failed password for labuser from 192.168.56.101 port 35986 ssh2
+2026-11-05T20:35:50.781095+00:00 ubuntu-victim sshd-session[3341]: Failed password for labuser from 192.168.56.101 port 35960 ssh2
+2026-11-05T20:35:51.011847+00:00 ubuntu-victim sshd-session[3346]: Failed password for labuser from 192.168.56.101 port 35976 ssh2
+2026-11-05T20:35:52.960985+00:00 ubuntu-victim sshd-session[3341]: error: maximum authentication attempts exceeded for labuser from 192.168.56.101 port 35960 ssh2 [preauth]
+2026-11-05T20:35:52.962000+00:00 ubuntu-victim sshd-session[3341]: Disconnecting authenticating user labuser 192.168.56.101 port 35960: Too many authentication failures [preauth]
+2026-11-05T20:35:52.962023+00:00 ubuntu-victim sshd-session[3341]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:35:52.962041+00:00 ubuntu-victim sshd-session[3341]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-11-05T20:35:53.021747+00:00 ubuntu-victim unix_chkpwd[3371]: password check failed for user (labuser)
+2026-11-05T20:35:53.236163+00:00 ubuntu-victim unix_chkpwd[3373]: password check failed for user (labuser)
+2026-11-05T20:35:53.237955+00:00 ubuntu-victim sshd-session[3370]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:35:54.164241+00:00 ubuntu-victim sshd-session[3337]: Failed password for labuser from 192.168.56.101 port 35958 ssh2
+2026-11-05T20:35:54.225760+00:00 ubuntu-victim unix_chkpwd[3374]: password check failed for user (labuser)
+2026-11-05T20:35:55.046955+00:00 ubuntu-victim sshd-session[3346]: Failed password for labuser from 192.168.56.101 port 35976 ssh2
+2026-11-05T20:35:55.126101+00:00 ubuntu-victim sshd-session[3346]: error: maximum authentication attempts exceeded for labuser from 192.168.56.101 port 35976 ssh2 [preauth]
+2026-11-05T20:35:55.126232+00:00 ubuntu-victim sshd-session[3346]: Disconnecting authenticating user labuser 192.168.56.101 port 35976: Too many authentication failures [preauth]
+2026-11-05T20:35:55.126300+00:00 ubuntu-victim sshd-session[3346]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:35:55.126317+00:00 ubuntu-victim sshd-session[3346]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-11-05T20:35:55.259453+00:00 ubuntu-victim unix_chkpwd[3377]: password check failed for user (labuser)
+2026-11-05T20:35:55.261448+00:00 ubuntu-victim sshd-session[3375]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:35:55.543328+00:00 ubuntu-victim sshd-session[3370]: Failed password for labuser from 192.168.56.101 port 53290 ssh2
+2026-11-05T20:35:56.092590+00:00 ubuntu-victim sshd-session[3351]: Failed password for labuser from 192.168.56.101 port 35986 ssh2
+2026-11-05T20:35:56.383987+00:00 ubuntu-victim sshd-session[3351]: error: maximum authentication attempts exceeded for labuser from 192.168.56.101 port 35986 ssh2 [preauth]
+2026-11-05T20:35:56.385076+00:00 ubuntu-victim sshd-session[3351]: Disconnecting authenticating user labuser 192.168.56.101 port 35986: Too many authentication failures [preauth]
+2026-11-05T20:35:56.389642+00:00 ubuntu-victim sshd-session[3351]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:35:56.389690+00:00 ubuntu-victim sshd-session[3351]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-11-05T20:35:56.534098+00:00 ubuntu-victim unix_chkpwd[3380]: password check failed for user (labuser)
+2026-11-05T20:35:56.535569+00:00 ubuntu-victim sshd-session[3378]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:35:57.511840+00:00 ubuntu-victim sshd-session[3375]: Failed password for labuser from 192.168.56.101 port 51700 ssh2
+2026-11-05T20:35:57.557220+00:00 ubuntu-victim unix_chkpwd[3381]: password check failed for user (labuser)
+2026-11-05T20:35:58.309814+00:00 ubuntu-victim sshd-session[3337]: error: maximum authentication attempts exceeded for labuser from 192.168.56.101 port 35958 ssh2 [preauth]
+2026-11-05T20:35:58.309886+00:00 ubuntu-victim sshd-session[3337]: Disconnecting authenticating user labuser 192.168.56.101 port 35958: Too many authentication failures [preauth]
+2026-11-05T20:35:58.309948+00:00 ubuntu-victim sshd-session[3337]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:35:58.309963+00:00 ubuntu-victim sshd-session[3337]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-11-05T20:35:58.436527+00:00 ubuntu-victim unix_chkpwd[3384]: password check failed for user (labuser)
+2026-11-05T20:35:58.436997+00:00 ubuntu-victim sshd-session[3382]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:35:59.460105+00:00 ubuntu-victim sshd-session[3378]: Failed password for labuser from 192.168.56.101 port 51706 ssh2
+2026-11-05T20:35:59.580199+00:00 ubuntu-victim unix_chkpwd[3385]: password check failed for user (labuser)
+2026-11-05T20:36:00.178328+00:00 ubuntu-victim sshd-session[3370]: Failed password for labuser from 192.168.56.101 port 53290 ssh2
+2026-11-05T20:36:00.409494+00:00 ubuntu-victim sshd-session[3382]: Failed password for labuser from 192.168.56.101 port 51716 ssh2
+2026-11-05T20:36:00.806711+00:00 ubuntu-victim unix_chkpwd[3386]: password check failed for user (labuser)
+2026-11-05T20:36:00.845922+00:00 ubuntu-victim unix_chkpwd[3387]: password check failed for user (labuser)
+2026-11-05T20:36:01.816846+00:00 ubuntu-victim sshd-session[3375]: Failed password for labuser from 192.168.56.101 port 51700 ssh2
+2026-11-05T20:36:01.860962+00:00 ubuntu-victim unix_chkpwd[3388]: password check failed for user (labuser)
+2026-11-05T20:36:04.503736+00:00 ubuntu-victim sshd-session[3378]: Failed password for labuser from 192.168.56.101 port 51706 ssh2
+2026-11-05T20:36:04.504237+00:00 ubuntu-victim sshd-session[3370]: Failed password for labuser from 192.168.56.101 port 53290 ssh2
+2026-11-05T20:36:04.506114+00:00 ubuntu-victim sshd-session[3382]: Failed password for labuser from 192.168.56.101 port 51716 ssh2
+2026-11-05T20:36:04.540778+00:00 ubuntu-victim unix_chkpwd[3389]: password check failed for user (labuser)
+2026-11-05T20:36:05.090453+00:00 ubuntu-victim unix_chkpwd[3390]: password check failed for user (labuser)
+2026-11-05T20:36:05.156178+00:00 ubuntu-victim unix_chkpwd[3391]: password check failed for user (labuser)
+2026-11-05T20:36:06.178078+00:00 ubuntu-victim unix_chkpwd[3392]: password check failed for user (labuser)
+2026-11-05T20:36:06.713501+00:00 ubuntu-victim sshd-session[3375]: Failed password for labuser from 192.168.56.101 port 51700 ssh2
+2026-11-05T20:36:07.353167+00:00 ubuntu-victim sshd-session[3382]: Failed password for labuser from 192.168.56.101 port 51716 ssh2
+2026-11-05T20:36:07.353408+00:00 ubuntu-victim sshd-session[3378]: Failed password for labuser from 192.168.56.101 port 51706 ssh2
+2026-11-05T20:36:08.438917+00:00 ubuntu-victim sshd-session[3370]: Failed password for labuser from 192.168.56.101 port 53290 ssh2
+2026-11-05T20:36:08.895488+00:00 ubuntu-victim unix_chkpwd[3393]: password check failed for user (labuser)
+2026-11-05T20:36:09.468972+00:00 ubuntu-victim unix_chkpwd[3394]: password check failed for user (labuser)
+2026-11-05T20:36:09.528713+00:00 ubuntu-victim unix_chkpwd[3395]: password check failed for user (labuser)
+2026-11-05T20:36:10.469195+00:00 ubuntu-victim unix_chkpwd[3396]: password check failed for user (labuser)
+2026-11-05T20:36:11.746151+00:00 ubuntu-victim sshd-session[3378]: Failed password for labuser from 192.168.56.101 port 51706 ssh2
+2026-11-05T20:36:12.411505+00:00 ubuntu-victim sshd-session[3375]: Failed password for labuser from 192.168.56.101 port 51700 ssh2
+2026-11-05T20:36:12.412270+00:00 ubuntu-victim sshd-session[3382]: Failed password for labuser from 192.168.56.101 port 51716 ssh2
+2026-11-05T20:36:12.799769+00:00 ubuntu-victim sshd-session[3370]: Failed password for labuser from 192.168.56.101 port 53290 ssh2
+2026-11-05T20:36:13.445535+00:00 ubuntu-victim unix_chkpwd[3397]: password check failed for user (labuser)
+2026-11-05T20:36:13.821107+00:00 ubuntu-victim unix_chkpwd[3399]: password check failed for user (labuser)
+2026-11-05T20:36:13.822509+00:00 ubuntu-victim unix_chkpwd[3398]: password check failed for user (labuser)
+2026-11-05T20:36:14.853930+00:00 ubuntu-victim unix_chkpwd[3400]: password check failed for user (labuser)
+2026-11-05T20:36:15.364649+00:00 ubuntu-victim sshd-session[3378]: Failed password for labuser from 192.168.56.101 port 51706 ssh2
+2026-11-05T20:36:15.729586+00:00 ubuntu-victim sshd-session[3382]: Failed password for labuser from 192.168.56.101 port 51716 ssh2
+2026-11-05T20:36:15.962617+00:00 ubuntu-victim unix_chkpwd[3401]: password check failed for user (labuser)
+2026-11-05T20:36:15.984874+00:00 ubuntu-victim unix_chkpwd[3402]: password check failed for user (labuser)
+2026-11-05T20:36:16.123636+00:00 ubuntu-victim sshd-session[3375]: Failed password for labuser from 192.168.56.101 port 51700 ssh2
+2026-11-05T20:36:16.583801+00:00 ubuntu-victim sshd-session[3370]: Failed password for labuser from 192.168.56.101 port 53290 ssh2
+2026-11-05T20:36:17.628272+00:00 ubuntu-victim sshd-session[3378]: Failed password for labuser from 192.168.56.101 port 51706 ssh2
+2026-11-05T20:36:17.916985+00:00 ubuntu-victim sshd-session[3382]: Failed password for labuser from 192.168.56.101 port 51716 ssh2
+2026-11-05T20:36:18.076125+00:00 ubuntu-victim sshd-session[3378]: error: maximum authentication attempts exceeded for labuser from 192.168.56.101 port 51706 ssh2 [preauth]
+2026-11-05T20:36:18.077735+00:00 ubuntu-victim sshd-session[3378]: Disconnecting authenticating user labuser 192.168.56.101 port 51706: Too many authentication failures [preauth]
+2026-11-05T20:36:18.077757+00:00 ubuntu-victim sshd-session[3378]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:36:18.077788+00:00 ubuntu-victim sshd-session[3378]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-11-05T20:36:18.090545+00:00 ubuntu-victim sshd-session[3382]: error: maximum authentication attempts exceeded for labuser from 192.168.56.101 port 51716 ssh2 [preauth]
+2026-11-05T20:36:18.090843+00:00 ubuntu-victim sshd-session[3382]: Disconnecting authenticating user labuser 192.168.56.101 port 51716: Too many authentication failures [preauth]
+2026-11-05T20:36:18.091606+00:00 ubuntu-victim sshd-session[3382]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:36:18.091766+00:00 ubuntu-victim sshd-session[3382]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-11-05T20:36:18.159571+00:00 ubuntu-victim sshd-session[3370]: error: maximum authentication attempts exceeded for labuser from 192.168.56.101 port 53290 ssh2 [preauth]
+2026-11-05T20:36:18.160784+00:00 ubuntu-victim sshd-session[3370]: Disconnecting authenticating user labuser 192.168.56.101 port 53290: Too many authentication failures [preauth]
+2026-11-05T20:36:18.168701+00:00 ubuntu-victim sshd-session[3370]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:36:18.168826+00:00 ubuntu-victim sshd-session[3370]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-11-05T20:36:18.235784+00:00 ubuntu-victim unix_chkpwd[3412]: password check failed for user (labuser)
+2026-11-05T20:36:18.237243+00:00 ubuntu-victim sshd-session[3406]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:36:18.259815+00:00 ubuntu-victim unix_chkpwd[3409]: password check failed for user (labuser)
+2026-11-05T20:36:18.261933+00:00 ubuntu-victim unix_chkpwd[3410]: password check failed for user (labuser)
+2026-11-05T20:36:18.262695+00:00 ubuntu-victim sshd-session[3404]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:36:18.312232+00:00 ubuntu-victim unix_chkpwd[3413]: password check failed for user (labuser)
+2026-11-05T20:36:18.312960+00:00 ubuntu-victim sshd-session[3408]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:36:19.553306+00:00 ubuntu-victim sshd-session[3404]: Failed password for labuser from 192.168.56.101 port 60112 ssh2
+2026-11-05T20:36:19.833891+00:00 ubuntu-victim sshd-session[3406]: Failed password for labuser from 192.168.56.101 port 60120 ssh2
+2026-11-05T20:36:20.361358+00:00 ubuntu-victim unix_chkpwd[3414]: password check failed for user (labuser)
+2026-11-05T20:36:20.960256+00:00 ubuntu-victim sshd-session[3408]: Failed password for labuser from 192.168.56.101 port 60136 ssh2
+2026-11-05T20:36:22.120997+00:00 ubuntu-victim sshd-session[3406]: Failed password for labuser from 192.168.56.101 port 60120 ssh2
+2026-11-05T20:36:22.477796+00:00 ubuntu-victim sshd-session[3375]: Failed password for labuser from 192.168.56.101 port 51700 ssh2
+2026-11-05T20:36:22.525914+00:00 ubuntu-victim unix_chkpwd[3416]: password check failed for user (labuser)
+2026-11-05T20:36:22.531719+00:00 ubuntu-victim unix_chkpwd[3415]: password check failed for user (labuser)
+2026-11-05T20:36:22.781417+00:00 ubuntu-victim unix_chkpwd[3417]: password check failed for user (labuser)
+2026-11-05T20:36:24.495107+00:00 ubuntu-victim sshd-session[3406]: Failed password for labuser from 192.168.56.101 port 60120 ssh2
+2026-11-05T20:36:24.584136+00:00 ubuntu-victim sshd-session[3404]: Failed password for labuser from 192.168.56.101 port 60112 ssh2
+2026-11-05T20:36:24.670114+00:00 ubuntu-victim unix_chkpwd[3418]: password check failed for user (labuser)
+2026-11-05T20:36:24.698725+00:00 ubuntu-victim unix_chkpwd[3419]: password check failed for user (labuser)
+2026-11-05T20:36:24.802907+00:00 ubuntu-victim sshd-session[3408]: Failed password for labuser from 192.168.56.101 port 60136 ssh2
+2026-11-05T20:36:25.100089+00:00 ubuntu-victim unix_chkpwd[3420]: password check failed for user (labuser)
+2026-11-05T20:36:26.402261+00:00 ubuntu-victim sshd-session[3406]: Failed password for labuser from 192.168.56.101 port 60120 ssh2
+2026-11-05T20:36:26.767594+00:00 ubuntu-victim sshd-session[3375]: error: maximum authentication attempts exceeded for labuser from 192.168.56.101 port 51700 ssh2 [preauth]
+2026-11-05T20:36:26.767735+00:00 ubuntu-victim sshd-session[3375]: Disconnecting authenticating user labuser 192.168.56.101 port 51700: Too many authentication failures [preauth]
+2026-11-05T20:36:26.767942+00:00 ubuntu-victim sshd-session[3408]: Failed password for labuser from 192.168.56.101 port 60136 ssh2
+2026-11-05T20:36:26.768078+00:00 ubuntu-victim sshd-session[3375]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:36:26.768113+00:00 ubuntu-victim sshd-session[3375]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-11-05T20:36:26.840915+00:00 ubuntu-victim unix_chkpwd[3423]: password check failed for user (labuser)
+2026-11-05T20:36:26.901595+00:00 ubuntu-victim unix_chkpwd[3424]: password check failed for user (labuser)
+2026-11-05T20:36:26.902507+00:00 ubuntu-victim sshd-session[3421]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:36:27.172773+00:00 ubuntu-victim sshd-session[3404]: Failed password for labuser from 192.168.56.101 port 60112 ssh2
+2026-11-05T20:36:27.277699+00:00 ubuntu-victim unix_chkpwd[3425]: password check failed for user (labuser)
+2026-11-05T20:36:29.086230+00:00 ubuntu-victim sshd-session[3421]: Failed password for labuser from 192.168.56.101 port 43218 ssh2
+2026-11-05T20:36:29.435741+00:00 ubuntu-victim sshd-session[3408]: Failed password for labuser from 192.168.56.101 port 60136 ssh2
+2026-11-05T20:36:29.436020+00:00 ubuntu-victim sshd-session[3406]: Failed password for labuser from 192.168.56.101 port 60120 ssh2
+2026-11-05T20:36:29.502550+00:00 ubuntu-victim unix_chkpwd[3426]: password check failed for user (labuser)
+2026-11-05T20:36:31.190378+00:00 ubuntu-victim unix_chkpwd[3427]: password check failed for user (labuser)
+2026-11-05T20:36:31.382041+00:00 ubuntu-victim unix_chkpwd[3428]: password check failed for user (labuser)
+2026-11-05T20:36:31.555800+00:00 ubuntu-victim unix_chkpwd[3429]: password check failed for user (labuser)
+2026-11-05T20:36:31.637956+00:00 ubuntu-victim sshd-session[3404]: Failed password for labuser from 192.168.56.101 port 60112 ssh2
+2026-11-05T20:36:33.560383+00:00 ubuntu-victim sshd-session[3406]: Failed password for labuser from 192.168.56.101 port 60120 ssh2
+2026-11-05T20:36:34.011420+00:00 ubuntu-victim sshd-session[3421]: Failed password for labuser from 192.168.56.101 port 43218 ssh2
+2026-11-05T20:36:34.092578+00:00 ubuntu-victim unix_chkpwd[3430]: password check failed for user (labuser)
+2026-11-05T20:36:34.159063+00:00 ubuntu-victim sshd-session[3408]: Failed password for labuser from 192.168.56.101 port 60136 ssh2
+2026-11-05T20:36:35.520718+00:00 ubuntu-victim unix_chkpwd[3431]: password check failed for user (labuser)
+2026-11-05T20:36:35.733057+00:00 ubuntu-victim sshd-session[3406]: error: maximum authentication attempts exceeded for labuser from 192.168.56.101 port 60120 ssh2 [preauth]
+2026-11-05T20:36:35.733168+00:00 ubuntu-victim sshd-session[3406]: Disconnecting authenticating user labuser 192.168.56.101 port 60120: Too many authentication failures [preauth]
+2026-11-05T20:36:35.735409+00:00 ubuntu-victim sshd-session[3406]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:36:35.735467+00:00 ubuntu-victim sshd-session[3406]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-11-05T20:36:35.846060+00:00 ubuntu-victim unix_chkpwd[3434]: password check failed for user (labuser)
+2026-11-05T20:36:35.847020+00:00 ubuntu-victim sshd-session[3432]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:36:35.853292+00:00 ubuntu-victim unix_chkpwd[3435]: password check failed for user (labuser)
+2026-11-05T20:36:37.521163+00:00 ubuntu-victim sshd-session[3432]: Failed password for labuser from 192.168.56.101 port 59950 ssh2
+2026-11-05T20:36:37.742936+00:00 ubuntu-victim sshd-session[3404]: Failed password for labuser from 192.168.56.101 port 60112 ssh2
+2026-11-05T20:36:37.994960+00:00 ubuntu-victim unix_chkpwd[3436]: password check failed for user (labuser)
+2026-11-05T20:36:38.066745+00:00 ubuntu-victim sshd-session[3421]: Failed password for labuser from 192.168.56.101 port 43218 ssh2
+2026-11-05T20:36:38.356085+00:00 ubuntu-victim sshd-session[3408]: Failed password for labuser from 192.168.56.101 port 60136 ssh2
+2026-11-05T20:36:38.413669+00:00 ubuntu-victim unix_chkpwd[3437]: password check failed for user (labuser)
+2026-11-05T20:36:39.823624+00:00 ubuntu-victim unix_chkpwd[3438]: password check failed for user (labuser)
+2026-11-05T20:36:40.198657+00:00 ubuntu-victim sshd-session[3432]: Failed password for labuser from 192.168.56.101 port 59950 ssh2
+2026-11-05T20:36:40.199350+00:00 ubuntu-victim sshd-session[3408]: error: maximum authentication attempts exceeded for labuser from 192.168.56.101 port 60136 ssh2 [preauth]
+2026-11-05T20:36:40.199522+00:00 ubuntu-victim sshd-session[3408]: Disconnecting authenticating user labuser 192.168.56.101 port 60136: Too many authentication failures [preauth]
+2026-11-05T20:36:40.200525+00:00 ubuntu-victim sshd-session[3408]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:36:40.202249+00:00 ubuntu-victim sshd-session[3408]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-11-05T20:36:40.336772+00:00 ubuntu-victim unix_chkpwd[3441]: password check failed for user (labuser)
+2026-11-05T20:36:40.337658+00:00 ubuntu-victim sshd-session[3439]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:36:40.421233+00:00 ubuntu-victim sshd-session[3404]: Failed password for labuser from 192.168.56.101 port 60112 ssh2
+2026-11-05T20:36:40.635748+00:00 ubuntu-victim sshd-session[3404]: error: maximum authentication attempts exceeded for labuser from 192.168.56.101 port 60112 ssh2 [preauth]
+2026-11-05T20:36:40.635890+00:00 ubuntu-victim sshd-session[3404]: Disconnecting authenticating user labuser 192.168.56.101 port 60112: Too many authentication failures [preauth]
+2026-11-05T20:36:40.647566+00:00 ubuntu-victim sshd-session[3404]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:36:40.647744+00:00 ubuntu-victim sshd-session[3404]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-11-05T20:36:40.837921+00:00 ubuntu-victim unix_chkpwd[3444]: password check failed for user (labuser)
+2026-11-05T20:36:40.839229+00:00 ubuntu-victim sshd-session[3442]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:36:42.160594+00:00 ubuntu-victim sshd-session[3439]: Failed password for labuser from 192.168.56.101 port 59966 ssh2
+2026-11-05T20:36:42.305382+00:00 ubuntu-victim unix_chkpwd[3445]: password check failed for user (labuser)
+2026-11-05T20:36:42.488946+00:00 ubuntu-victim sshd-session[3421]: Failed password for labuser from 192.168.56.101 port 43218 ssh2
+2026-11-05T20:36:42.556535+00:00 ubuntu-victim unix_chkpwd[3446]: password check failed for user (labuser)
+2026-11-05T20:36:42.810427+00:00 ubuntu-victim sshd-session[3442]: Failed password for labuser from 192.168.56.101 port 59976 ssh2
+2026-11-05T20:36:43.400888+00:00 ubuntu-victim unix_chkpwd[3447]: password check failed for user (labuser)
+2026-11-05T20:36:43.584235+00:00 ubuntu-victim sshd-session[3439]: Failed password for labuser from 192.168.56.101 port 59966 ssh2
+2026-11-05T20:36:44.128992+00:00 ubuntu-victim unix_chkpwd[3448]: password check failed for user (labuser)
+2026-11-05T20:36:44.901972+00:00 ubuntu-victim sshd-session[3432]: Failed password for labuser from 192.168.56.101 port 59950 ssh2
+2026-11-05T20:36:44.952918+00:00 ubuntu-victim unix_chkpwd[3449]: password check failed for user (labuser)
+2026-11-05T20:36:45.780524+00:00 ubuntu-victim sshd-session[3442]: Failed password for labuser from 192.168.56.101 port 59976 ssh2
+2026-11-05T20:36:46.235836+00:00 ubuntu-victim sshd-session[3421]: Failed password for labuser from 192.168.56.101 port 43218 ssh2
+2026-11-05T20:36:46.634240+00:00 ubuntu-victim unix_chkpwd[3450]: password check failed for user (labuser)
+2026-11-05T20:36:46.864671+00:00 ubuntu-victim sshd-session[3439]: Failed password for labuser from 192.168.56.101 port 59966 ssh2
+2026-11-05T20:36:47.453735+00:00 ubuntu-victim unix_chkpwd[3451]: password check failed for user (labuser)
+2026-11-05T20:36:47.822127+00:00 ubuntu-victim unix_chkpwd[3452]: password check failed for user (labuser)
+2026-11-05T20:36:48.422419+00:00 ubuntu-victim unix_chkpwd[3453]: password check failed for user (labuser)
+2026-11-05T20:36:49.577169+00:00 ubuntu-victim sshd-session[3439]: Failed password for labuser from 192.168.56.101 port 59966 ssh2
+2026-11-05T20:36:49.577545+00:00 ubuntu-victim sshd-session[3432]: Failed password for labuser from 192.168.56.101 port 59950 ssh2
+2026-11-05T20:36:49.988265+00:00 ubuntu-victim sshd-session[3442]: Failed password for labuser from 192.168.56.101 port 59976 ssh2
+2026-11-05T20:36:50.853123+00:00 ubuntu-victim sshd-session[3421]: Failed password for labuser from 192.168.56.101 port 43218 ssh2
+2026-11-05T20:36:50.934429+00:00 ubuntu-victim unix_chkpwd[3454]: password check failed for user (labuser)
+2026-11-05T20:36:52.701443+00:00 ubuntu-victim sshd-session[3421]: error: maximum authentication attempts exceeded for labuser from 192.168.56.101 port 43218 ssh2 [preauth]
+2026-11-05T20:36:52.701641+00:00 ubuntu-victim sshd-session[3421]: Disconnecting authenticating user labuser 192.168.56.101 port 43218: Too many authentication failures [preauth]
+2026-11-05T20:36:52.701834+00:00 ubuntu-victim sshd-session[3421]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:36:52.701875+00:00 ubuntu-victim sshd-session[3421]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-11-05T20:36:52.752236+00:00 ubuntu-victim unix_chkpwd[3456]: password check failed for user (labuser)
+2026-11-05T20:36:52.777854+00:00 ubuntu-victim unix_chkpwd[3458]: password check failed for user (labuser)
+2026-11-05T20:36:52.873061+00:00 ubuntu-victim unix_chkpwd[3459]: password check failed for user (labuser)
+2026-11-05T20:36:52.875398+00:00 ubuntu-victim sshd-session[3455]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:36:53.204631+00:00 ubuntu-victim sshd-session[3432]: Failed password for labuser from 192.168.56.101 port 59950 ssh2
+2026-11-05T20:36:54.844074+00:00 ubuntu-victim sshd-session[3442]: Failed password for labuser from 192.168.56.101 port 59976 ssh2
+2026-11-05T20:36:54.844533+00:00 ubuntu-victim sshd-session[3439]: Failed password for labuser from 192.168.56.101 port 59966 ssh2
+2026-11-05T20:36:54.844640+00:00 ubuntu-victim sshd-session[3455]: Failed password for labuser from 192.168.56.101 port 39862 ssh2
+2026-11-05T20:36:54.921743+00:00 ubuntu-victim unix_chkpwd[3460]: password check failed for user (labuser)
+2026-11-05T20:36:54.959858+00:00 ubuntu-victim unix_chkpwd[3461]: password check failed for user (labuser)
+2026-11-05T20:36:55.026660+00:00 ubuntu-victim unix_chkpwd[3462]: password check failed for user (labuser)
+2026-11-05T20:36:55.258912+00:00 ubuntu-victim unix_chkpwd[3463]: password check failed for user (labuser)
+2026-11-05T20:36:56.808780+00:00 ubuntu-victim sshd-session[3439]: Failed password for labuser from 192.168.56.101 port 59966 ssh2
+2026-11-05T20:36:56.898561+00:00 ubuntu-victim sshd-session[3442]: Failed password for labuser from 192.168.56.101 port 59976 ssh2
+2026-11-05T20:36:57.039718+00:00 ubuntu-victim sshd-session[3455]: Failed password for labuser from 192.168.56.101 port 39862 ssh2
+2026-11-05T20:36:57.058676+00:00 ubuntu-victim sshd-session[3439]: error: maximum authentication attempts exceeded for labuser from 192.168.56.101 port 59966 ssh2 [preauth]
+2026-11-05T20:36:57.059026+00:00 ubuntu-victim sshd-session[3439]: Disconnecting authenticating user labuser 192.168.56.101 port 59966: Too many authentication failures [preauth]
+2026-11-05T20:36:57.059072+00:00 ubuntu-victim sshd-session[3439]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:36:57.059208+00:00 ubuntu-victim sshd-session[3439]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-11-05T20:36:57.106770+00:00 ubuntu-victim unix_chkpwd[3464]: password check failed for user (labuser)
+2026-11-05T20:36:57.181994+00:00 ubuntu-victim unix_chkpwd[3467]: password check failed for user (labuser)
+2026-11-05T20:36:57.212020+00:00 ubuntu-victim unix_chkpwd[3468]: password check failed for user (labuser)
+2026-11-05T20:36:57.212270+00:00 ubuntu-victim sshd-session[3465]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:36:57.330780+00:00 ubuntu-victim sshd-session[3432]: Failed password for labuser from 192.168.56.101 port 59950 ssh2
+2026-11-05T20:36:57.367495+00:00 ubuntu-victim sshd-session[3432]: error: maximum authentication attempts exceeded for labuser from 192.168.56.101 port 59950 ssh2 [preauth]
+2026-11-05T20:36:57.367651+00:00 ubuntu-victim sshd-session[3432]: Disconnecting authenticating user labuser 192.168.56.101 port 59950: Too many authentication failures [preauth]
+2026-11-05T20:36:57.368612+00:00 ubuntu-victim sshd-session[3432]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:36:57.368723+00:00 ubuntu-victim sshd-session[3432]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-11-05T20:36:57.493115+00:00 ubuntu-victim unix_chkpwd[3471]: password check failed for user (labuser)
+2026-11-05T20:36:57.493769+00:00 ubuntu-victim sshd-session[3469]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:36:58.684318+00:00 ubuntu-victim sshd-session[3442]: Failed password for labuser from 192.168.56.101 port 59976 ssh2
+2026-11-05T20:36:58.925929+00:00 ubuntu-victim sshd-session[3455]: Failed password for labuser from 192.168.56.101 port 39862 ssh2
+2026-11-05T20:36:59.026120+00:00 ubuntu-victim sshd-session[3465]: Failed password for labuser from 192.168.56.101 port 49278 ssh2
+2026-11-05T20:36:59.202698+00:00 ubuntu-victim sshd-session[3442]: error: maximum authentication attempts exceeded for labuser from 192.168.56.101 port 59976 ssh2 [preauth]
+2026-11-05T20:36:59.202998+00:00 ubuntu-victim sshd-session[3442]: Disconnecting authenticating user labuser 192.168.56.101 port 59976: Too many authentication failures [preauth]
+2026-11-05T20:36:59.203590+00:00 ubuntu-victim sshd-session[3442]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:36:59.203638+00:00 ubuntu-victim sshd-session[3442]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-11-05T20:36:59.321120+00:00 ubuntu-victim unix_chkpwd[3474]: password check failed for user (labuser)
+2026-11-05T20:36:59.342189+00:00 ubuntu-victim unix_chkpwd[3475]: password check failed for user (labuser)
+2026-11-05T20:36:59.342934+00:00 ubuntu-victim sshd-session[3472]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:36:59.357132+00:00 ubuntu-victim sshd-session[3469]: Failed password for labuser from 192.168.56.101 port 49284 ssh2
+2026-11-05T20:36:59.389590+00:00 ubuntu-victim unix_chkpwd[3476]: password check failed for user (labuser)
+2026-11-05T20:36:59.685530+00:00 ubuntu-victim unix_chkpwd[3477]: password check failed for user (labuser)
+2026-11-05T20:37:00.551394+00:00 ubuntu-victim sshd-session[3455]: Failed password for labuser from 192.168.56.101 port 39862 ssh2
+2026-11-05T20:37:01.261555+00:00 ubuntu-victim sshd-session[3465]: Failed password for labuser from 192.168.56.101 port 49278 ssh2
+2026-11-05T20:37:01.469676+00:00 ubuntu-victim unix_chkpwd[3478]: password check failed for user (labuser)
+2026-11-05T20:37:01.470937+00:00 ubuntu-victim sshd-session[3472]: Failed password for labuser from 192.168.56.101 port 49294 ssh2
+2026-11-05T20:37:01.514952+00:00 ubuntu-victim unix_chkpwd[3479]: password check failed for user (labuser)
+2026-11-05T20:37:01.534785+00:00 ubuntu-victim sshd-session[3469]: Failed password for labuser from 192.168.56.101 port 49284 ssh2
+2026-11-05T20:37:01.850878+00:00 ubuntu-victim unix_chkpwd[3480]: password check failed for user (labuser)
+2026-11-05T20:37:03.016761+00:00 ubuntu-victim sshd-session[3455]: Failed password for labuser from 192.168.56.101 port 39862 ssh2
+2026-11-05T20:37:03.616845+00:00 ubuntu-victim unix_chkpwd[3481]: password check failed for user (labuser)
+2026-11-05T20:37:03.636048+00:00 ubuntu-victim unix_chkpwd[3482]: password check failed for user (labuser)
+2026-11-05T20:37:03.859323+00:00 ubuntu-victim sshd-session[3469]: Failed password for labuser from 192.168.56.101 port 49284 ssh2
+2026-11-05T20:37:03.990628+00:00 ubuntu-victim unix_chkpwd[3483]: password check failed for user (labuser)
+2026-11-05T20:37:04.028665+00:00 ubuntu-victim sshd-session[3465]: Failed password for labuser from 192.168.56.101 port 49278 ssh2
+2026-11-05T20:37:05.828770+00:00 ubuntu-victim sshd-session[3472]: Failed password for labuser from 192.168.56.101 port 49294 ssh2
+2026-11-05T20:37:05.859500+00:00 ubuntu-victim unix_chkpwd[3484]: password check failed for user (labuser)
+2026-11-05T20:37:05.877657+00:00 ubuntu-victim sshd-session[3469]: Failed password for labuser from 192.168.56.101 port 49284 ssh2
+2026-11-05T20:37:05.893169+00:00 ubuntu-victim sshd-session[3455]: Failed password for labuser from 192.168.56.101 port 39862 ssh2
+2026-11-05T20:37:06.966766+00:00 ubuntu-victim unix_chkpwd[3485]: password check failed for user (labuser)
+2026-11-05T20:37:07.890906+00:00 ubuntu-victim sshd-session[3455]: error: maximum authentication attempts exceeded for labuser from 192.168.56.101 port 39862 ssh2 [preauth]
+2026-11-05T20:37:07.891474+00:00 ubuntu-victim sshd-session[3455]: Disconnecting authenticating user labuser 192.168.56.101 port 39862: Too many authentication failures [preauth]
+2026-11-05T20:37:07.891582+00:00 ubuntu-victim sshd-session[3455]: PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:37:07.891599+00:00 ubuntu-victim sshd-session[3455]: PAM service(sshd) ignoring max retries; 6 > 3
+2026-11-05T20:37:07.930042+00:00 ubuntu-victim unix_chkpwd[3488]: password check failed for user (labuser)
+2026-11-05T20:37:08.150752+00:00 ubuntu-victim unix_chkpwd[3489]: password check failed for user (labuser)
+2026-11-05T20:37:08.151830+00:00 ubuntu-victim sshd-session[3486]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:37:08.658693+00:00 ubuntu-victim sshd-session[3465]: Failed password for labuser from 192.168.56.101 port 49278 ssh2
+2026-11-05T20:37:11.335772+00:00 ubuntu-victim sshd-session[3486]: Failed password for labuser from 192.168.56.101 port 39516 ssh2
+2026-11-05T20:37:11.336176+00:00 ubuntu-victim sshd-session[3472]: Failed password for labuser from 192.168.56.101 port 49294 ssh2
+2026-11-05T20:37:11.336746+00:00 ubuntu-victim sshd-session[3469]: Failed password for labuser from 192.168.56.101 port 49284 ssh2
+2026-11-05T20:37:11.336837+00:00 ubuntu-victim sshd-session[3465]: Connection closed by authenticating user labuser 192.168.56.101 port 49278 [preauth]
+2026-11-05T20:37:11.336865+00:00 ubuntu-victim sshd-session[3465]: PAM 3 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:37:11.336886+00:00 ubuntu-victim sshd-session[3465]: PAM service(sshd) ignoring max retries; 4 > 3
+2026-11-05T20:37:12.213594+00:00 ubuntu-victim sshd-session[3472]: Connection closed by authenticating user labuser 192.168.56.101 port 49294 [preauth]
+2026-11-05T20:37:12.213715+00:00 ubuntu-victim sshd-session[3472]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:37:12.215004+00:00 ubuntu-victim sshd[1489]: srclimit_penalise: 192.168.56.101/32: activating ipv4 penalty of 16 seconds for penalty: failed authentication
+2026-11-05T20:37:12.972769+00:00 ubuntu-victim sshd-session[3486]: Connection closed by authenticating user labuser 192.168.56.101 port 39516 [preauth]
+2026-11-05T20:37:17.494894+00:00 ubuntu-victim sshd-session[3469]: Connection closed by authenticating user labuser 192.168.56.101 port 49284 [preauth]
+2026-11-05T20:37:17.495237+00:00 ubuntu-victim sshd-session[3469]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=labuser
+2026-11-05T20:37:17.495408+00:00 ubuntu-victim sshd-session[3469]: PAM service(sshd) ignoring max retries; 5 > 3
+2026-11-05T20:42:17.667688+00:00 ubuntu-victim sshd-session[3496]: Accepted password for labuser from 192.168.56.1 port 31681 ssh2
+2026-11-05T20:42:17.678426+00:00 ubuntu-victim sshd-session[3496]: pam_unix(sshd:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-05T20:42:17.679043+00:00 ubuntu-victim systemd-logind[2716]: New session '8' of user 'labuser' with class 'user' and type 'tty'.
