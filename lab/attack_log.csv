@@ -1,3 +1,8 @@
 start_time,end_time,tool,technique,target,notes
 2026-11-05 20:14:30,2026-11-05 20:15:19,hydra,ssh_bruteforce,192.168.56.10,password found: football
 2026-11-05 20:34:41,2026-11-05 20:37:17,hydra,ssh_bruteforce,192.168.56.10,password NOT found - stopped manually
+
+port attack
+2026-11-11 00:44:12,2026-11-11 00:44:14,nmap,port_scan_syn,192.168.56.10,nmap -sS
+2026-11-11 00:45:09,2026-11-11 00:46:55,nmap,port_scan_full,192.168.56.10,nmap -p- (all 65535 ports)
+2026-11-11 00:47:28,2026-11-11 00:47:33,nmap,port_scan_version,192.168.56.10,nmap -sV
