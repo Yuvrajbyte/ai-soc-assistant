@@ -115,6 +115,17 @@ pytest -v
   hardcode absolute paths. Fixed by recreating the venv after moving
   the project to its permanent location.
 
+  - **Ground-truth timestamps are accurate to the second**, not the
+  millisecond.** `lab/attack_log.csv` records attack start/end times
+  rounded to the nearest second, but real log events have
+  millisecond-level precision. As a result, a handful of events
+  landing just after a recorded `end_time` (but within the same
+  second) can be mislabeled as normal instead of attack when building
+  the ML feature table. This affected 2 out of 56 labeled windows in
+  our first feature extraction. We left this as a known limitation
+  rather than padding the window artificially, since documenting the
+  precision mismatch is more honest than silently smoothing over it.
+
 ## Roadmap
 
 - [ ] ML anomaly detection (Isolation Forest), compared honestly
@@ -213,3 +224,12 @@ or usernames involved.
 the same-port-is-not-a-scan distinction, and correlation logic
 (merging nearby alerts, not merging across source IPs). Combined with
 the SSH test suite, the project has **24 passing tests** total.
+
+- **Almost lost labeled attack data to an overwrite.** Re-running scp
+  to pull "fresh" logs for normal-traffic baselining nearly overwrote
+  the original Nov 5 attack data with new (unrelated) log content from
+  a VM reboot. Recovered via git history, since the data had been
+  committed earlier. This reinforced that in this project, log files
+  aren't just code assets, they're irreplaceable experimental results
+  (exact attack timing/randomness can't be perfectly reproduced), so
+  version control matters here as much as it does for code.
