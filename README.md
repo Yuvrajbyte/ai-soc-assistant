@@ -17,25 +17,38 @@ outdated public dataset and call it done. This project instead:
 - Generates its own labeled attack data from a real, isolated VM lab
 - Builds detection the way security teams actually do: rules first,
   then ML as a comparison layer, not a replacement
-- Documents what didn't work as carefully as what did (see "What we
+- Documents what didn't work as carefully as what did (see "What i
   learned" below)
 - Is designed to keep growing: ML anomaly detection, LLM-based triage,
   and prompt-injection testing are all planned next stages
 
 ## Architecture
-Kali (attacker) --SSH brute force--> Ubuntu Server (victim)
-|
-/var/log/auth.log
-|
-src/parsers/auth_parser.py
-(regex -> structured LoginAttempt)
-|
-src/detections/ssh_bruteforce.py
-(sliding-window threshold -> correlated incidents)
-|
-[ next: ML anomaly detection ]
-[ next: LLM triage + ATT&CK mapping ]
-[ next: Streamlit dashboard ]
+## Architecture
+
+```
+Kali (attacker)
+  |
+  |--SSH brute force--> Ubuntu Server (victim) --> /var/log/auth.log
+  |                                                        |
+  |                                          src/parsers/auth_parser.py
+  |                                        (regex -> structured LoginAttempt)
+  |                                                        |
+  |                                       src/detections/ssh_bruteforce.py
+  |                                   (sliding-window threshold -> correlated incidents)
+  |
+  |--port scan (nmap)--> Ubuntu Server (victim) --> /var/log/ufw.log
+                                                             |
+                                               src/parsers/ufw_parser.py
+                                          (regex -> structured PortProbe)
+                                                             |
+                                             src/detections/port_scan.py
+                                     (unique-port threshold -> correlated incidents)
+
+                    [ both pipelines feed into: ]
+                    [ next: ML anomaly detection, comparing both attack types ]
+                    [ next: LLM triage + ATT&CK mapping ]
+                    [ next: Streamlit dashboard ]
+```
 
 
 ## Lab setup
@@ -86,7 +99,7 @@ Run with:
 pytest -v
 
 
-## What we learned (and got wrong first)
+## What i learned (and got wrong first)
 
 - **Clock/timezone confusion early on:** Kali and Ubuntu initially
   displayed different timezones, making it look like a third attack
@@ -119,5 +132,84 @@ pytest -v
 Python, pandas, scikit-learn (planned), pytest, FastAPI (planned),
 Streamlit (planned), VirtualBox, Kali Linux, Ubuntu Server, Hydra
 
-important observation in ufw port scan
-neither of my -p- (all 65535 ports) scans generated anywhere near 65535 log lines, only 18-19 each. That’s because UFW’s default rate-limiting or nmap’s own scan behavior (it skips already-determined-filtered ports quickly, or the connection gets dropped before every single port is individually logged) means a full port sweep doesn’t necessarily produce one log line per port attempted. *log volume doesn’t always scale linearly with attack scope*, which matters when i'll design detection thresholds later.
+
+## Second attack type: port scanning
+
+To give the project more than one attack signature to detect (and
+eventually more than one class for ML to learn), i added port scan
+detection as a second, structurally different attack type.
+
+### Log source: UFW firewall log
+
+SSH brute force and port scanning don't share a log file. `auth.log`
+only records authentication attempts, it has no visibility into raw
+TCP connection attempts against closed or unexpected ports. To capture
+port scans, i enabled Ubuntu's UFW firewall with logging turned on
+(`sudo ufw logging on`), which writes blocked connection attempts to
+`/var/log/ufw.log` in a completely different format from auth.log.
+
+This meant building a second parser, `src/parsers/ufw_parser.py`,
+extracting `PortProbe` records (timestamp, source/destination IP,
+protocol, source/destination port) via regex, following the same
+validate-against-an-independent-count approach as the SSH parser.
+
+### Detection: a different signal entirely
+
+SSH brute force and port scanning look nothing alike in the data, which
+is exactly why having two attack types matters for this project:
+
+- **SSH brute force** is about **repetition**: many failed attempts
+  against the *same* port and account, sustained over tens of seconds
+  to minutes.
+- **Port scanning** is about **breadth**: many *different* destination
+  ports probed from one source IP, often within a fraction of a
+  second.
+
+`src/detections/port_scan.py` reflects this: instead of counting total
+failed attempts like the SSH detector, it counts **unique destination
+ports** within a sliding window (8+ unique ports within 10 seconds).
+A test (`test_repeated_hits_on_same_port_do_not_count_as_scan`)
+specifically locks in this distinction, confirming that repeated hits
+on one port are correctly *not* flagged as a scan, that pattern
+belongs to the brute-force detector instead.
+
+### Results against real lab data
+
+Two nmap scan sessions (`nmap -sS`, `-p-`, `-sV`, run a day apart)
+produced 37 total logged probe events. The detector correctly
+identified both as separate incidents:
+
+| Metric | Value |
+|---|---|
+| Total probes parsed | 37 |
+| Raw threshold alerts | 2 |
+| Correlated incidents | 2 |
+| Matches ground truth (`lab/attack_log.csv`)? | Yes, both sessions |
+
+### Two unexpected findings worth noting
+
+**1. Log volume doesn't scale linearly with attack scope.** A `-p-`
+scan probes all 65,535 TCP ports, yet each session only generated
+18-19 log lines, not tens of thousands. This is because UFW's logging
+behavior and nmap's own scan optimizations mean most "filtered" ports
+never generate an individually logged packet; only a representative
+subset does. This matters for detection design: a threshold tuned by
+assuming "more ports scanned = more log lines" would be miscalibrated
+against real firewall logging behavior.
+
+**2. The two attack types have very different time signatures.** SSH
+brute-force incidents spanned tens of seconds to minutes (sustained,
+repeated attempts). Port scan incidents were detected with a reported
+duration of effectively 0.0 seconds, all 8+ ports were hit within the
+same sub-second burst. This contrast (sustained repetition vs.
+near-instantaneous breadth) is a strong candidate feature for the
+upcoming ML stage: "time span of the incident" alone could help
+distinguish attack types without needing to know the specific ports
+or usernames involved.
+
+### Tests
+
+9 tests in `tests/test_port_scan.py`, covering threshold detection,
+the same-port-is-not-a-scan distinction, and correlation logic
+(merging nearby alerts, not merging across source IPs). Combined with
+the SSH test suite, the project has **24 passing tests** total.
