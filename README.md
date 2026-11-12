@@ -118,3 +118,6 @@ pytest -v
 
 Python, pandas, scikit-learn (planned), pytest, FastAPI (planned),
 Streamlit (planned), VirtualBox, Kali Linux, Ubuntu Server, Hydra
+
+important observation in ufw port scan
+neither of my -p- (all 65535 ports) scans generated anywhere near 65535 log lines, only 18-19 each. That’s because UFW’s default rate-limiting or nmap’s own scan behavior (it skips already-determined-filtered ports quickly, or the connection gets dropped before every single port is individually logged) means a full port sweep doesn’t necessarily produce one log line per port attempted. *log volume doesn’t always scale linearly with attack scope*, which matters when i'll design detection thresholds later.
