@@ -242,7 +242,7 @@ the SSH test suite, the project has **24 passing tests** total.
 | Isolation Forest | 75% | 55% | Trained on 76 windowed samples, evaluated on 23 held-out |
 
 The rule-based detectors outperformed the ML model on this dataset,
-and we think that's the right takeaway rather than a failure: domain-
+and i think that's the right takeaway rather than a failure: domain-
 specific rules (exact thresholds tuned to known attack signatures)
 beat a generic unsupervised model when the dataset is small and the
 attack patterns are well-understood. Isolation Forest's value would
@@ -250,3 +250,40 @@ likely grow with (a) a much larger and more varied dataset, and (b)
 novel attack types the rules weren't explicitly written for, which is
 exactly the gap ML is meant to fill in a real SOC: catching what rules
 miss, not replacing well-understood detections.
+
+## ML vs. rule-based detection: a three-way comparison
+
+| Detector | Precision | Recall | Notes |
+|---|---|---|---|
+| Rule-based (SSH + port scan) | 100% | 100% | Hand-tuned thresholds, validated against all known attacks |
+| Isolation Forest (unsupervised) | 83% | 83% | Trained on 97 windowed samples (59 normal / 38 attack), no labels used during training |
+| Random Forest (supervised) | 86% | 100% | Same dataset, but trained with access to ground-truth labels |
+
+**Takeaways:**
+
+- **Rule-based detection remains the strongest performer** for these
+  two specific, well-understood attack types. This makes sense: the
+  rules encode exact domain knowledge (failure thresholds, port
+  diversity) tuned directly to the attack signatures we generated.
+  ML's value proposition isn't beating a good rule on a known
+  pattern, it's generalizing to patterns nobody wrote a rule for yet.
+
+- **More training data measurably improved the unsupervised model.**
+  Isolation Forest's recall rose from 55% to 83% simply by growing the
+  normal-traffic dataset from 38 to 59 samples, demonstrating that
+  anomaly detection is highly data-hungry even on a simple task.
+
+- **Giving the model labels (supervised Random Forest) closed most of
+  the remaining gap**, reaching 100% recall. Its feature importances
+  show `accepted_ssh_attempts` as the single most informative feature,
+  more so than `failed_ssh_attempts`. On reflection this makes sense:
+  our attack windows are characterized by an *absence* of successful
+  logins just as much as a presence of failures, so the model learned
+  both directions of the signal.
+
+- **Caveat on the 100% recall figure:** with a test set of only 12
+  attack samples (out of 97 total examples), this result should be
+  read as promising rather than conclusive. A larger, more varied
+  dataset (more sessions, more attack types, more normal-traffic
+  baseline) would be needed before trusting this number in anything
+  resembling production.
