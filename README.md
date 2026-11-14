@@ -43,10 +43,10 @@ Kali (attacker)
                                                              |
                                              src/detections/port_scan.py
                                      (unique-port threshold -> correlated incidents)
-
-                    [ both pipelines feed into: ]
-                    [ next: ML anomaly detection, comparing both attack types ]
-                    [ next: LLM triage + ATT&CK mapping ]
+                                                             |
+                            src/llm/triage.py (local LLM summary + deterministic ATT&CK mapping)
+                    
+                    
                     [ next: Streamlit dashboard ]
 ```
 
