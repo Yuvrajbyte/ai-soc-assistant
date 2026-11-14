@@ -1,0 +1,36 @@
+{
+  "ssh_bruteforce": {
+    "technique_id": "T1110.001",
+    "technique_name": "Brute Force: Password Guessing",
+    "tactic": "Credential Access",
+    "description": "Adversaries use automated tools to guess account passwords by repeatedly attempting different password values against one or more accounts, typically without prior knowledge of valid credentials.",
+    "common_indicators": [
+      "Many failed login attempts from a single source in a short time",
+      "Repeated attempts against the same username",
+      "Connection resets/reconnects after hitting authentication limits"
+    ],
+    "recommended_response": [
+      "Verify whether the target account's password was eventually compromised (check for a success after the failures)",
+      "Block or rate-limit the source IP at the firewall",
+      "Consider enforcing key-based SSH authentication instead of passwords",
+      "Review whether fail2ban or similar intrusion-prevention tooling is active"
+    ]
+  },
+  "port_scan": {
+    "technique_id": "T1046",
+    "technique_name": "Network Service Discovery",
+    "tactic": "Discovery",
+    "description": "Adversaries attempt to get a listing of services running on remote hosts, including those that may be vulnerable to remote software exploitation, typically as reconnaissance before a more targeted attack.",
+    "common_indicators": [
+      "Many different destination ports probed from a single source IP",
+      "Probes occurring in a very short time window (seconds)",
+      "Traffic to ports with no legitimate service (e.g. rarely-used or uncommon ports)"
+    ],
+    "recommended_response": [
+      "Identify what the scan revealed (which ports responded vs. were filtered)",
+      "Confirm no unnecessary services are exposed on probed ports",
+      "Monitor the source IP for follow-up activity, which often indicates scanning was reconnaissance for a targeted attack",
+      "Consider blocking the source IP if scanning is clearly hostile and not expected traffic"
+    ]
+  }
+}
