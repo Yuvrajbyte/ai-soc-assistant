@@ -250,3 +250,183 @@
 2026-11-13T13:51:46.022638+05:30 ubuntu-victim sshd-session[4283]: Accepted password for labuser from 192.168.56.1 port 3046 ssh2
 2026-11-13T13:51:46.023952+05:30 ubuntu-victim sshd-session[4283]: pam_unix(sshd:session): session opened for user labuser(uid=1000) by labuser(uid=0)
 2026-11-13T13:51:46.027556+05:30 ubuntu-victim systemd-logind[2675]: New session '31' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-13T13:51:46.432571+05:30 ubuntu-victim sshd-session[4344]: Received disconnect from 192.168.56.1 port 3046:11: disconnected by user
+2026-11-13T13:51:46.434441+05:30 ubuntu-victim sshd-session[4344]: Disconnected from user labuser 192.168.56.1 port 3046
+2026-11-13T13:51:46.435711+05:30 ubuntu-victim sshd-session[4283]: pam_unix(sshd:session): session closed for user labuser
+2026-11-13T13:51:46.442072+05:30 ubuntu-victim systemd-logind[2675]: Session 31 logged out. Waiting for processes to exit.
+2026-11-13T13:51:46.445923+05:30 ubuntu-victim systemd-logind[2675]: Removed session 31.
+2026-11-14T15:53:27.710419+05:30 ubuntu-victim systemd-logind[1067]: New seat seat0.
+2026-11-14T15:53:27.710428+05:30 ubuntu-victim systemd-logind[1067]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-11-14T15:53:27.710433+05:30 ubuntu-victim systemd-logind[1067]: Watching system buttons on /dev/input/event1 (Sleep Button)
+2026-11-14T15:53:27.710439+05:30 ubuntu-victim systemd-logind[1067]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+2026-11-14T15:56:51.292237+05:30 ubuntu-victim login: pam_unix(login:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-14T15:56:51.316766+05:30 ubuntu-victim systemd-logind[1067]: New session '1' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-14T15:56:51.399730+05:30 ubuntu-victim (systemd): pam_unix(systemd-user:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-14T15:56:51.403298+05:30 ubuntu-victim systemd-logind[1067]: New session '2' of user 'labuser' with class 'manager' and type 'unspecified'.
+2026-11-14T16:12:15.084915+05:30 ubuntu-victim sshd[1539]: Server listening on 0.0.0.0 port 22.
+2026-11-14T16:12:15.085515+05:30 ubuntu-victim sshd[1539]: Server listening on :: port 22.
+2026-11-14T16:12:15.320867+05:30 ubuntu-victim sshd-session[1542]: Accepted password for labuser from 192.168.56.101 port 57786 ssh2
+2026-11-14T16:12:15.329746+05:30 ubuntu-victim sshd-session[1542]: pam_unix(sshd:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-14T16:12:15.336279+05:30 ubuntu-victim systemd-logind[1067]: New session '3' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-14T16:12:16.215680+05:30 ubuntu-victim sshd-session[1601]: Received disconnect from 192.168.56.101 port 57786:11: disconnected by user
+2026-11-14T16:12:16.224206+05:30 ubuntu-victim sshd-session[1601]: Disconnected from user labuser 192.168.56.101 port 57786
+2026-11-14T16:12:16.224349+05:30 ubuntu-victim sshd-session[1542]: pam_unix(sshd:session): session closed for user labuser
+2026-11-14T16:12:16.232166+05:30 ubuntu-victim systemd-logind[1067]: Session 3 logged out. Waiting for processes to exit.
+2026-11-14T16:12:16.236650+05:30 ubuntu-victim systemd-logind[1067]: Removed session 3.
+2026-11-14T16:12:51.369113+05:30 ubuntu-victim sshd-session[1604]: Accepted password for labuser from 192.168.56.101 port 56734 ssh2
+2026-11-14T16:12:51.371111+05:30 ubuntu-victim sshd-session[1604]: pam_unix(sshd:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-14T16:12:51.375848+05:30 ubuntu-victim systemd-logind[1067]: New session '4' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-14T16:12:51.551704+05:30 ubuntu-victim sshd-session[1654]: Received disconnect from 192.168.56.101 port 56734:11: disconnected by user
+2026-11-14T16:12:51.552236+05:30 ubuntu-victim sshd-session[1654]: Disconnected from user labuser 192.168.56.101 port 56734
+2026-11-14T16:12:51.552526+05:30 ubuntu-victim sshd-session[1604]: pam_unix(sshd:session): session closed for user labuser
+2026-11-14T16:12:51.560216+05:30 ubuntu-victim systemd-logind[1067]: Session 4 logged out. Waiting for processes to exit.
+2026-11-14T16:12:51.563274+05:30 ubuntu-victim systemd-logind[1067]: Removed session 4.
+2026-11-14T16:13:11.797229+05:30 ubuntu-victim sshd-session[1657]: Accepted password for labuser from 192.168.56.101 port 42950 ssh2
+2026-11-14T16:13:11.797957+05:30 ubuntu-victim sshd-session[1657]: pam_unix(sshd:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-14T16:13:11.798929+05:30 ubuntu-victim systemd-logind[1067]: New session '5' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-14T16:13:12.000084+05:30 ubuntu-victim sshd-session[1707]: Received disconnect from 192.168.56.101 port 42950:11: disconnected by user
+2026-11-14T16:13:12.000190+05:30 ubuntu-victim sshd-session[1707]: Disconnected from user labuser 192.168.56.101 port 42950
+2026-11-14T16:13:12.000242+05:30 ubuntu-victim sshd-session[1657]: pam_unix(sshd:session): session closed for user labuser
+2026-11-14T16:13:12.007921+05:30 ubuntu-victim systemd-logind[1067]: Session 5 logged out. Waiting for processes to exit.
+2026-11-14T16:13:12.010662+05:30 ubuntu-victim systemd-logind[1067]: Removed session 5.
+2026-11-14T16:13:29.150216+05:30 ubuntu-victim sshd-session[1712]: Accepted password for labuser from 192.168.56.101 port 53526 ssh2
+2026-11-14T16:13:29.151773+05:30 ubuntu-victim sshd-session[1712]: pam_unix(sshd:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-14T16:13:29.156362+05:30 ubuntu-victim systemd-logind[1067]: New session '6' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-14T16:13:29.752629+05:30 ubuntu-victim sshd-session[1771]: Received disconnect from 192.168.56.101 port 53526:11: disconnected by user
+2026-11-14T16:13:29.753640+05:30 ubuntu-victim sshd-session[1771]: Disconnected from user labuser 192.168.56.101 port 53526
+2026-11-14T16:13:29.753784+05:30 ubuntu-victim sshd-session[1712]: pam_unix(sshd:session): session closed for user labuser
+2026-11-14T16:13:29.756551+05:30 ubuntu-victim systemd-logind[1067]: Session 6 logged out. Waiting for processes to exit.
+2026-11-14T16:13:29.758300+05:30 ubuntu-victim systemd-logind[1067]: Removed session 6.
+2026-11-14T16:13:44.978991+05:30 ubuntu-victim sshd-session[1774]: Accepted password for labuser from 192.168.56.101 port 47252 ssh2
+2026-11-14T16:13:44.982965+05:30 ubuntu-victim sshd-session[1774]: pam_unix(sshd:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-14T16:13:44.989126+05:30 ubuntu-victim systemd-logind[1067]: New session '7' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-14T16:13:45.246372+05:30 ubuntu-victim sshd-session[1824]: Received disconnect from 192.168.56.101 port 47252:11: disconnected by user
+2026-11-14T16:13:45.246561+05:30 ubuntu-victim sshd-session[1824]: Disconnected from user labuser 192.168.56.101 port 47252
+2026-11-14T16:13:45.246761+05:30 ubuntu-victim sshd-session[1774]: pam_unix(sshd:session): session closed for user labuser
+2026-11-14T16:13:45.251774+05:30 ubuntu-victim systemd-logind[1067]: Session 7 logged out. Waiting for processes to exit.
+2026-11-14T16:13:45.253173+05:30 ubuntu-victim systemd-logind[1067]: Removed session 7.
+2026-11-14T16:14:08.396926+05:30 ubuntu-victim sshd-session[1827]: Accepted password for labuser from 192.168.56.101 port 52348 ssh2
+2026-11-14T16:14:08.403911+05:30 ubuntu-victim sshd-session[1827]: pam_unix(sshd:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-14T16:14:08.413790+05:30 ubuntu-victim systemd-logind[1067]: New session '8' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-14T16:14:08.625741+05:30 ubuntu-victim sshd-session[1877]: Received disconnect from 192.168.56.101 port 52348:11: disconnected by user
+2026-11-14T16:14:08.626188+05:30 ubuntu-victim sshd-session[1877]: Disconnected from user labuser 192.168.56.101 port 52348
+2026-11-14T16:14:08.626357+05:30 ubuntu-victim sshd-session[1827]: pam_unix(sshd:session): session closed for user labuser
+2026-11-14T16:14:08.630889+05:30 ubuntu-victim systemd-logind[1067]: Session 8 logged out. Waiting for processes to exit.
+2026-11-14T16:14:08.632599+05:30 ubuntu-victim systemd-logind[1067]: Removed session 8.
+2026-11-14T16:14:40.787063+05:30 ubuntu-victim sshd-session[1880]: Accepted password for labuser from 192.168.56.101 port 59116 ssh2
+2026-11-14T16:14:40.788531+05:30 ubuntu-victim sshd-session[1880]: pam_unix(sshd:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-14T16:14:40.794484+05:30 ubuntu-victim systemd-logind[1067]: New session '9' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-14T16:14:41.457843+05:30 ubuntu-victim sshd-session[1939]: Received disconnect from 192.168.56.101 port 59116:11: disconnected by user
+2026-11-14T16:14:41.458181+05:30 ubuntu-victim sshd-session[1939]: Disconnected from user labuser 192.168.56.101 port 59116
+2026-11-14T16:14:41.458589+05:30 ubuntu-victim sshd-session[1880]: pam_unix(sshd:session): session closed for user labuser
+2026-11-14T16:14:41.462270+05:30 ubuntu-victim systemd-logind[1067]: Session 9 logged out. Waiting for processes to exit.
+2026-11-14T16:14:41.470259+05:30 ubuntu-victim systemd-logind[1067]: Removed session 9.
+2026-11-14T16:14:58.608648+05:30 ubuntu-victim sshd-session[1942]: Accepted password for labuser from 192.168.56.101 port 33900 ssh2
+2026-11-14T16:14:58.613559+05:30 ubuntu-victim sshd-session[1942]: pam_unix(sshd:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-14T16:14:58.621850+05:30 ubuntu-victim systemd-logind[1067]: New session '10' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-14T16:14:58.901337+05:30 ubuntu-victim sshd-session[1992]: Received disconnect from 192.168.56.101 port 33900:11: disconnected by user
+2026-11-14T16:14:58.901502+05:30 ubuntu-victim sshd-session[1992]: Disconnected from user labuser 192.168.56.101 port 33900
+2026-11-14T16:14:58.902486+05:30 ubuntu-victim sshd-session[1942]: pam_unix(sshd:session): session closed for user labuser
+2026-11-14T16:14:58.906980+05:30 ubuntu-victim systemd-logind[1067]: Session 10 logged out. Waiting for processes to exit.
+2026-11-14T16:14:58.910586+05:30 ubuntu-victim systemd-logind[1067]: Removed session 10.
+2026-11-14T16:15:32.047776+05:30 ubuntu-victim sshd-session[1995]: Accepted password for labuser from 192.168.56.101 port 57768 ssh2
+2026-11-14T16:15:32.049743+05:30 ubuntu-victim sshd-session[1995]: pam_unix(sshd:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-14T16:15:32.053731+05:30 ubuntu-victim systemd-logind[1067]: New session '11' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-14T16:15:32.272496+05:30 ubuntu-victim sshd-session[2045]: Received disconnect from 192.168.56.101 port 57768:11: disconnected by user
+2026-11-14T16:15:32.272902+05:30 ubuntu-victim sshd-session[2045]: Disconnected from user labuser 192.168.56.101 port 57768
+2026-11-14T16:15:32.273073+05:30 ubuntu-victim sshd-session[1995]: pam_unix(sshd:session): session closed for user labuser
+2026-11-14T16:15:32.280709+05:30 ubuntu-victim systemd-logind[1067]: Session 11 logged out. Waiting for processes to exit.
+2026-11-14T16:15:32.283430+05:30 ubuntu-victim systemd-logind[1067]: Removed session 11.
+2026-11-14T16:16:10.417838+05:30 ubuntu-victim sshd-session[2049]: Accepted password for labuser from 192.168.56.101 port 33022 ssh2
+2026-11-14T16:16:10.420439+05:30 ubuntu-victim sshd-session[2049]: pam_unix(sshd:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-14T16:16:10.426333+05:30 ubuntu-victim systemd-logind[1067]: New session '12' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-14T16:16:11.068762+05:30 ubuntu-victim sshd-session[2108]: Received disconnect from 192.168.56.101 port 33022:11: disconnected by user
+2026-11-14T16:16:11.068981+05:30 ubuntu-victim sshd-session[2108]: Disconnected from user labuser 192.168.56.101 port 33022
+2026-11-14T16:16:11.069381+05:30 ubuntu-victim sshd-session[2049]: pam_unix(sshd:session): session closed for user labuser
+2026-11-14T16:16:11.076670+05:30 ubuntu-victim systemd-logind[1067]: Session 12 logged out. Waiting for processes to exit.
+2026-11-14T16:16:11.084382+05:30 ubuntu-victim systemd-logind[1067]: Removed session 12.
+2026-11-14T16:16:39.241679+05:30 ubuntu-victim sshd-session[2112]: Accepted password for labuser from 192.168.56.101 port 56538 ssh2
+2026-11-14T16:16:39.244397+05:30 ubuntu-victim sshd-session[2112]: pam_unix(sshd:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-14T16:16:39.250344+05:30 ubuntu-victim systemd-logind[1067]: New session '13' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-14T16:16:39.455959+05:30 ubuntu-victim sshd-session[2162]: Received disconnect from 192.168.56.101 port 56538:11: disconnected by user
+2026-11-14T16:16:39.456387+05:30 ubuntu-victim sshd-session[2162]: Disconnected from user labuser 192.168.56.101 port 56538
+2026-11-14T16:16:39.457436+05:30 ubuntu-victim sshd-session[2112]: pam_unix(sshd:session): session closed for user labuser
+2026-11-14T16:16:39.460705+05:30 ubuntu-victim systemd-logind[1067]: Session 13 logged out. Waiting for processes to exit.
+2026-11-14T16:16:39.462569+05:30 ubuntu-victim systemd-logind[1067]: Removed session 13.
+2026-11-14T16:17:01.996339+05:30 ubuntu-victim CRON[2165]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-11-14T16:17:02.004375+05:30 ubuntu-victim CRON[2165]: pam_unix(cron:session): session closed for user root
+2026-11-14T16:17:19.693816+05:30 ubuntu-victim sshd-session[2171]: Accepted password for labuser from 192.168.56.101 port 56844 ssh2
+2026-11-14T16:17:19.707330+05:30 ubuntu-victim sshd-session[2171]: pam_unix(sshd:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-14T16:17:19.714004+05:30 ubuntu-victim systemd-logind[1067]: New session '15' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-14T16:17:20.375897+05:30 ubuntu-victim sshd-session[2230]: Received disconnect from 192.168.56.101 port 56844:11: disconnected by user
+2026-11-14T16:17:20.379236+05:30 ubuntu-victim sshd-session[2230]: Disconnected from user labuser 192.168.56.101 port 56844
+2026-11-14T16:17:20.379369+05:30 ubuntu-victim sshd-session[2171]: pam_unix(sshd:session): session closed for user labuser
+2026-11-14T16:17:20.382076+05:30 ubuntu-victim systemd-logind[1067]: Session 15 logged out. Waiting for processes to exit.
+2026-11-14T16:17:20.384870+05:30 ubuntu-victim systemd-logind[1067]: Removed session 15.
+2026-11-14T16:18:04.581869+05:30 ubuntu-victim sshd-session[2233]: Accepted password for labuser from 192.168.56.101 port 40010 ssh2
+2026-11-14T16:18:04.585719+05:30 ubuntu-victim sshd-session[2233]: pam_unix(sshd:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-14T16:18:04.593686+05:30 ubuntu-victim systemd-logind[1067]: New session '16' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-14T16:18:04.829526+05:30 ubuntu-victim sshd-session[2283]: Received disconnect from 192.168.56.101 port 40010:11: disconnected by user
+2026-11-14T16:18:04.831086+05:30 ubuntu-victim sshd-session[2283]: Disconnected from user labuser 192.168.56.101 port 40010
+2026-11-14T16:18:04.831645+05:30 ubuntu-victim sshd-session[2233]: pam_unix(sshd:session): session closed for user labuser
+2026-11-14T16:18:04.835298+05:30 ubuntu-victim systemd-logind[1067]: Session 16 logged out. Waiting for processes to exit.
+2026-11-14T16:18:04.839844+05:30 ubuntu-victim systemd-logind[1067]: Removed session 16.
+2026-11-14T16:18:26.987698+05:30 ubuntu-victim sshd-session[2286]: Accepted password for labuser from 192.168.56.101 port 53784 ssh2
+2026-11-14T16:18:26.991768+05:30 ubuntu-victim sshd-session[2286]: pam_unix(sshd:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-14T16:18:26.996208+05:30 ubuntu-victim systemd-logind[1067]: New session '17' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-14T16:18:27.608567+05:30 ubuntu-victim sshd-session[2345]: Received disconnect from 192.168.56.101 port 53784:11: disconnected by user
+2026-11-14T16:18:27.609758+05:30 ubuntu-victim sshd-session[2345]: Disconnected from user labuser 192.168.56.101 port 53784
+2026-11-14T16:18:27.610706+05:30 ubuntu-victim sshd-session[2286]: pam_unix(sshd:session): session closed for user labuser
+2026-11-14T16:18:27.613641+05:30 ubuntu-victim systemd-logind[1067]: Session 17 logged out. Waiting for processes to exit.
+2026-11-14T16:18:27.615904+05:30 ubuntu-victim systemd-logind[1067]: Removed session 17.
+2026-11-14T16:19:11.758862+05:30 ubuntu-victim sshd-session[2348]: Accepted password for labuser from 192.168.56.101 port 53202 ssh2
+2026-11-14T16:19:11.759956+05:30 ubuntu-victim sshd-session[2348]: pam_unix(sshd:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-14T16:19:11.764627+05:30 ubuntu-victim systemd-logind[1067]: New session '18' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-14T16:19:11.993740+05:30 ubuntu-victim sshd-session[2398]: Received disconnect from 192.168.56.101 port 53202:11: disconnected by user
+2026-11-14T16:19:11.994596+05:30 ubuntu-victim sshd-session[2398]: Disconnected from user labuser 192.168.56.101 port 53202
+2026-11-14T16:19:11.994889+05:30 ubuntu-victim sshd-session[2348]: pam_unix(sshd:session): session closed for user labuser
+2026-11-14T16:19:12.004058+05:30 ubuntu-victim systemd-logind[1067]: Session 18 logged out. Waiting for processes to exit.
+2026-11-14T16:19:12.008873+05:30 ubuntu-victim systemd-logind[1067]: Removed session 18.
+2026-11-14T16:19:32.150573+05:30 ubuntu-victim sshd-session[2401]: Accepted password for labuser from 192.168.56.101 port 50066 ssh2
+2026-11-14T16:19:32.153723+05:30 ubuntu-victim sshd-session[2401]: pam_unix(sshd:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-14T16:19:32.157779+05:30 ubuntu-victim systemd-logind[1067]: New session '19' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-14T16:19:32.820766+05:30 ubuntu-victim sshd-session[2460]: Received disconnect from 192.168.56.101 port 50066:11: disconnected by user
+2026-11-14T16:19:32.821188+05:30 ubuntu-victim sshd-session[2460]: Disconnected from user labuser 192.168.56.101 port 50066
+2026-11-14T16:19:32.821356+05:30 ubuntu-victim sshd-session[2401]: pam_unix(sshd:session): session closed for user labuser
+2026-11-14T16:19:32.829785+05:30 ubuntu-victim systemd-logind[1067]: Session 19 logged out. Waiting for processes to exit.
+2026-11-14T16:19:32.831284+05:30 ubuntu-victim systemd-logind[1067]: Removed session 19.
+2026-11-14T16:19:59.054898+05:30 ubuntu-victim sshd-session[2463]: Accepted password for labuser from 192.168.56.101 port 59022 ssh2
+2026-11-14T16:19:59.060750+05:30 ubuntu-victim sshd-session[2463]: pam_unix(sshd:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-14T16:19:59.069031+05:30 ubuntu-victim systemd-logind[1067]: New session '20' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-14T16:19:59.287462+05:30 ubuntu-victim sshd-session[2513]: Received disconnect from 192.168.56.101 port 59022:11: disconnected by user
+2026-11-14T16:19:59.288335+05:30 ubuntu-victim sshd-session[2513]: Disconnected from user labuser 192.168.56.101 port 59022
+2026-11-14T16:19:59.289754+05:30 ubuntu-victim sshd-session[2463]: pam_unix(sshd:session): session closed for user labuser
+2026-11-14T16:19:59.296477+05:30 ubuntu-victim systemd-logind[1067]: Session 20 logged out. Waiting for processes to exit.
+2026-11-14T16:19:59.298754+05:30 ubuntu-victim systemd-logind[1067]: Removed session 20.
+2026-11-14T16:20:42.431849+05:30 ubuntu-victim sshd-session[2521]: Accepted password for labuser from 192.168.56.101 port 46550 ssh2
+2026-11-14T16:20:42.434182+05:30 ubuntu-victim sshd-session[2521]: pam_unix(sshd:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-14T16:20:42.439200+05:30 ubuntu-victim systemd-logind[1067]: New session '21' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-14T16:20:43.120409+05:30 ubuntu-victim sshd-session[2580]: Received disconnect from 192.168.56.101 port 46550:11: disconnected by user
+2026-11-14T16:20:43.121216+05:30 ubuntu-victim sshd-session[2580]: Disconnected from user labuser 192.168.56.101 port 46550
+2026-11-14T16:20:43.121241+05:30 ubuntu-victim sshd-session[2521]: pam_unix(sshd:session): session closed for user labuser
+2026-11-14T16:20:43.129720+05:30 ubuntu-victim systemd-logind[1067]: Session 21 logged out. Waiting for processes to exit.
+2026-11-14T16:20:43.131963+05:30 ubuntu-victim systemd-logind[1067]: Removed session 21.
+2026-11-14T16:21:07.269350+05:30 ubuntu-victim sshd-session[2583]: Accepted password for labuser from 192.168.56.101 port 46780 ssh2
+2026-11-14T16:21:07.274038+05:30 ubuntu-victim sshd-session[2583]: pam_unix(sshd:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-14T16:21:07.282676+05:30 ubuntu-victim systemd-logind[1067]: New session '22' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-14T16:21:07.489877+05:30 ubuntu-victim sshd-session[2633]: Received disconnect from 192.168.56.101 port 46780:11: disconnected by user
+2026-11-14T16:21:07.493469+05:30 ubuntu-victim sshd-session[2633]: Disconnected from user labuser 192.168.56.101 port 46780
+2026-11-14T16:21:07.493595+05:30 ubuntu-victim sshd-session[2583]: pam_unix(sshd:session): session closed for user labuser
+2026-11-14T16:21:07.496278+05:30 ubuntu-victim systemd-logind[1067]: Session 22 logged out. Waiting for processes to exit.
+2026-11-14T16:21:07.497613+05:30 ubuntu-victim systemd-logind[1067]: Removed session 22.
+2026-11-14T16:21:38.715459+05:30 ubuntu-victim sshd-session[2637]: Accepted password for labuser from 192.168.56.101 port 36914 ssh2
+2026-11-14T16:21:38.716529+05:30 ubuntu-victim sshd-session[2637]: pam_unix(sshd:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-14T16:21:38.722730+05:30 ubuntu-victim systemd-logind[1067]: New session '23' of user 'labuser' with class 'user' and type 'tty'.
+2026-11-14T16:21:38.939749+05:30 ubuntu-victim sshd-session[2687]: Received disconnect from 192.168.56.101 port 36914:11: disconnected by user
+2026-11-14T16:21:38.939939+05:30 ubuntu-victim sshd-session[2687]: Disconnected from user labuser 192.168.56.101 port 36914
+2026-11-14T16:21:38.941527+05:30 ubuntu-victim sshd-session[2637]: pam_unix(sshd:session): session closed for user labuser
+2026-11-14T16:21:38.949367+05:30 ubuntu-victim systemd-logind[1067]: Session 23 logged out. Waiting for processes to exit.
+2026-11-14T16:21:38.951671+05:30 ubuntu-victim systemd-logind[1067]: Removed session 23.
+2026-11-14T16:23:18.350266+05:30 ubuntu-victim sshd-session[2697]: Accepted password for labuser from 192.168.56.1 port 50261 ssh2
+2026-11-14T16:23:18.354287+05:30 ubuntu-victim sshd-session[2697]: pam_unix(sshd:session): session opened for user labuser(uid=1000) by labuser(uid=0)
+2026-11-14T16:23:18.360249+05:30 ubuntu-victim systemd-logind[1067]: New session '24' of user 'labuser' with class 'user' and type 'tty'.

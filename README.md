@@ -233,3 +233,20 @@ the SSH test suite, the project has **24 passing tests** total.
   aren't just code assets, they're irreplaceable experimental results
   (exact attack timing/randomness can't be perfectly reproduced), so
   version control matters here as much as it does for code.
+
+  ## ML vs. rule-based detection: an honest comparison
+
+| Detector | Precision | Recall | Notes |
+|---|---|---|---|
+| Rule-based (SSH + port scan) | 100% | 100% | Validated against ground truth on both attack types |
+| Isolation Forest | 75% | 55% | Trained on 76 windowed samples, evaluated on 23 held-out |
+
+The rule-based detectors outperformed the ML model on this dataset,
+and we think that's the right takeaway rather than a failure: domain-
+specific rules (exact thresholds tuned to known attack signatures)
+beat a generic unsupervised model when the dataset is small and the
+attack patterns are well-understood. Isolation Forest's value would
+likely grow with (a) a much larger and more varied dataset, and (b)
+novel attack types the rules weren't explicitly written for, which is
+exactly the gap ML is meant to fill in a real SOC: catching what rules
+miss, not replacing well-understood detections.
