@@ -1,0 +1,376 @@
+2026-11-15T17:24:37.671933038Z info: Detected Node.js version v24.22.2 (SUCCESS)
+2026-11-15T17:24:37.672551779Z info: Detected OS linux (SUCCESS)
+2026-11-15T17:24:37.672915492Z info: Detected CPU x64 (SUCCESS)
+2026-11-15T17:24:37.686306999Z info: Configuration default validated (SUCCESS)
+2026-11-15T17:24:37.727234812Z info: Entity models 22 of 22 are initialized (SUCCESS)
+2026-11-15T17:24:37.800129976Z info: Required file server.js is present (SUCCESS)
+2026-11-15T17:24:37.800381490Z info: Required file index.html is present (SUCCESS)
+2026-11-15T17:24:37.800732667Z info: Required file styles.css is present (SUCCESS)
+2026-11-15T17:24:37.800985141Z info: Required file main.js is present (SUCCESS)
+2026-11-15T17:24:37.801469821Z info: Required file polyfills.js is present (SUCCESS)
+2026-11-15T17:24:37.801899848Z info: Required file matching /^hacking-instructor-.+\.js$/ is present (SUCCESS)
+2026-11-15T17:24:37.804507052Z info: Port 3000 is available (SUCCESS)
+2026-11-15T17:24:37.863551988Z info: All dependencies in ./package.json are satisfied (SUCCESS)
+2026-11-15T17:24:38.151386867Z info: Domain https://www.alchemy.com/ is reachable (SUCCESS)
+2026-11-15T17:24:38.151423837Z warn: Environment variable ALCHEMY_API_KEY is not present (WARNING)
+2026-11-15T17:24:38.151696389Z warn: "Mint the Honey Pot" challenge will not work as intended without a valid ALCHEMY_API_KEY
+2026-11-15T17:24:38.152017677Z warn: "Wallet Depletion" challenge will not work as intended without a valid ALCHEMY_API_KEY
+2026-11-15T17:24:38.153037732Z info: Check https://howto-web3.owasp-juice.shop for instructions on how to set up and configure the Alchemy API
+2026-11-15T17:24:38.159204664Z warn: Domain http://localhost:11434/v1 is not reachable (WARNING)
+2026-11-15T17:24:38.159229463Z warn: "Chatbot Prompt Injection" challenge will not work as intended without access to http://localhost:11434/v1
+2026-11-15T17:24:38.159797165Z warn: "Greedy Chatbot Manipulation" challenge will not work as intended without access to http://localhost:11434/v1
+2026-11-15T17:24:38.160019041Z warn: "AI Debugging" challenge will not work as intended without access to http://localhost:11434/v1
+2026-11-15T17:24:38.160091170Z warn: "System Prompt Extraction" challenge will not work as intended without access to http://localhost:11434/v1
+2026-11-15T17:24:38.160332910Z info: Check https://howto-llm.owasp-juice.shop for instructions on how to set up and configure the LLM API
+2026-11-15T17:24:40.261343610Z info: Server listening on port 3000
+2026-11-15T17:35:28.910780278Z info: Detected Node.js version v24.22.2 (SUCCESS)
+2026-11-15T17:35:28.912588193Z info: Detected OS linux (SUCCESS)
+2026-11-15T17:35:28.912606020Z info: Detected CPU x64 (SUCCESS)
+2026-11-15T17:35:28.949469769Z info: Configuration default validated (SUCCESS)
+2026-11-15T17:35:29.027542375Z info: Entity models 22 of 22 are initialized (SUCCESS)
+2026-11-15T17:35:29.206976254Z info: Required file server.js is present (SUCCESS)
+2026-11-15T17:35:29.207034039Z info: Required file index.html is present (SUCCESS)
+2026-11-15T17:35:29.207322614Z info: Required file main.js is present (SUCCESS)
+2026-11-15T17:35:29.207639832Z info: Required file polyfills.js is present (SUCCESS)
+2026-11-15T17:35:29.208022230Z info: Required file styles.css is present (SUCCESS)
+2026-11-15T17:35:29.208618157Z info: Required file matching /^hacking-instructor-.+\.js$/ is present (SUCCESS)
+2026-11-15T17:35:29.213338910Z info: Port 3000 is available (SUCCESS)
+2026-11-15T17:35:29.337636976Z info: All dependencies in ./package.json are satisfied (SUCCESS)
+2026-11-15T17:35:34.341206339Z warn: Domain https://www.alchemy.com/ is not reachable (WARNING)
+2026-11-15T17:35:34.341240911Z warn: "Mint the Honey Pot" challenge will not work as intended without access to https://www.alchemy.com/
+2026-11-15T17:35:34.341243205Z warn: "Wallet Depletion" challenge will not work as intended without access to https://www.alchemy.com/
+2026-11-15T17:35:34.341244409Z warn: Environment variable ALCHEMY_API_KEY is not present (WARNING)
+2026-11-15T17:35:34.341728969Z warn: "Mint the Honey Pot" challenge will not work as intended without a valid ALCHEMY_API_KEY
+2026-11-15T17:35:34.341735554Z warn: "Wallet Depletion" challenge will not work as intended without a valid ALCHEMY_API_KEY
+2026-11-15T17:35:34.341737024Z info: Check https://howto-web3.owasp-juice.shop for instructions on how to set up and configure the Alchemy API
+2026-11-15T17:35:34.344756345Z warn: Domain http://localhost:11434/v1 is not reachable (WARNING)
+2026-11-15T17:35:34.345284097Z warn: "Chatbot Prompt Injection" challenge will not work as intended without access to http://localhost:11434/v1
+2026-11-15T17:35:34.345562663Z warn: "Greedy Chatbot Manipulation" challenge will not work as intended without access to http://localhost:11434/v1
+2026-11-15T17:35:34.346180474Z warn: "AI Debugging" challenge will not work as intended without access to http://localhost:11434/v1
+2026-11-15T17:35:34.346580795Z warn: "System Prompt Extraction" challenge will not work as intended without access to http://localhost:11434/v1
+2026-11-15T17:35:34.346587207Z info: Check https://howto-llm.owasp-juice.shop for instructions on how to set up and configure the LLM API
+2026-11-15T17:35:38.200010474Z info: Server listening on port 3000
+2026-11-15T18:55:23.244861422Z Error: Unexpected path: /api
+2026-11-15T18:55:23.246193350Z     at /juice-shop/build/routes/angular.js:18:18
+2026-11-15T18:55:23.246213442Z     at /juice-shop/build/lib/utils.js:275:26
+2026-11-15T18:55:23.246215525Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-15T18:55:23.246217147Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-15T18:55:23.246218631Z     at /juice-shop/node_modules/express/lib/router/index.js:286:9
+2026-11-15T18:55:23.246220004Z     at router.process_params (/juice-shop/node_modules/express/lib/router/index.js:346:12)
+2026-11-15T18:55:23.246240766Z     at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+2026-11-15T18:55:23.246242137Z     at /juice-shop/build/routes/verify.js:235:5
+2026-11-15T18:55:23.246243417Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-15T18:55:23.246244538Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-15T18:55:23.246245598Z     at /juice-shop/node_modules/express/lib/router/index.js:286:9
+2026-11-15T18:55:23.246246581Z     at router.process_params (/juice-shop/node_modules/express/lib/router/index.js:346:12)
+2026-11-15T18:55:23.246247638Z     at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+2026-11-15T18:55:23.246248674Z     at /juice-shop/build/lib/insecurity.js:218:5
+2026-11-15T18:55:23.246249704Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-15T18:55:23.246250740Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-15T18:55:23.246251872Z Error: Unexpected path: /apis
+2026-11-15T18:55:23.246252887Z     at /juice-shop/build/routes/angular.js:18:18
+2026-11-15T18:55:23.246253891Z     at /juice-shop/build/lib/utils.js:275:26
+2026-11-15T18:55:23.246254895Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-15T18:55:23.246255971Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-15T18:55:23.246256961Z     at /juice-shop/node_modules/express/lib/router/index.js:286:9
+2026-11-15T18:55:23.246257966Z     at router.process_params (/juice-shop/node_modules/express/lib/router/index.js:346:12)
+2026-11-15T18:55:23.246259020Z     at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+2026-11-15T18:55:23.246260065Z     at /juice-shop/build/routes/verify.js:235:5
+2026-11-15T18:55:23.246261080Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-15T18:55:23.246262162Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-15T18:55:23.246265868Z     at /juice-shop/node_modules/express/lib/router/index.js:286:9
+2026-11-15T18:55:23.246266917Z     at router.process_params (/juice-shop/node_modules/express/lib/router/index.js:346:12)
+2026-11-15T18:55:23.246267962Z     at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+2026-11-15T18:55:23.246268986Z     at /juice-shop/build/lib/insecurity.js:218:5
+2026-11-15T18:55:23.246270004Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-15T18:55:23.246271090Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-15T18:55:55.781398325Z 
+2026-11-15T18:55:55.781752557Z <--- Last few GCs --->
+2026-11-15T18:55:55.781841353Z 
+2026-11-15T18:55:55.781843954Z [1:0x3cc8f000]  4829041 ms: Mark-Compact (reduce) 820.6 (825.2) -> 819.5 (822.4) MB, pooled: 0 MB, 279.88 / 0.01 ms  (+ 158.7 ms in 31 steps since start of marking, biggest step 25.4 ms, walltime since start of marking 478 ms) (average mu = 0.196, current
+2026-11-15T18:55:55.781904672Z FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
+2026-11-15T18:55:55.781905895Z ----- Native stack trace -----
+2026-11-15T18:55:55.781907429Z 
+2026-11-15T18:55:55.841938373Z  1: 0x942e80  [/nodejs/bin/node]
+2026-11-15T18:55:55.865296057Z  2: 0x75f71e node::OOMErrorHandler(char const*, v8::OOMDetails const&) [/nodejs/bin/node]
+2026-11-15T18:55:55.865619238Z  3: 0xc9a1e0  [/nodejs/bin/node]
+2026-11-15T18:55:55.868228134Z  4: 0xc9a2cf  [/nodejs/bin/node]
+2026-11-15T18:55:55.870554924Z  5: 0xf3e5a5  [/nodejs/bin/node]
+2026-11-15T18:55:55.874920482Z  6: 0xf3e5d2  [/nodejs/bin/node]
+2026-11-15T18:55:55.890967110Z  7: 0xf3e8ca  [/nodejs/bin/node]
+2026-11-15T18:55:55.891483206Z  8: 0xf4f5ca  [/nodejs/bin/node]
+2026-11-15T18:55:55.892009588Z  9: 0xf53970  [/nodejs/bin/node]
+2026-11-15T18:55:55.909761587Z 10: 0x19f1e81  [/nodejs/bin/node]
+2026-11-15T19:56:30.102793323Z info: Detected Node.js version v24.22.2 (SUCCESS)
+2026-11-15T19:56:30.104399627Z info: Detected OS linux (SUCCESS)
+2026-11-15T19:56:30.105279133Z info: Detected CPU x64 (SUCCESS)
+2026-11-15T19:56:30.130510446Z info: Configuration default validated (SUCCESS)
+2026-11-15T19:56:30.185229434Z info: Entity models 22 of 22 are initialized (SUCCESS)
+2026-11-15T19:56:30.284185024Z info: Required file server.js is present (SUCCESS)
+2026-11-15T19:56:30.284688305Z info: Required file index.html is present (SUCCESS)
+2026-11-15T19:56:30.285214844Z info: Required file styles.css is present (SUCCESS)
+2026-11-15T19:56:30.285457511Z info: Required file main.js is present (SUCCESS)
+2026-11-15T19:56:30.285985774Z info: Required file polyfills.js is present (SUCCESS)
+2026-11-15T19:56:30.286680779Z info: Required file matching /^hacking-instructor-.+\.js$/ is present (SUCCESS)
+2026-11-15T19:56:30.299675853Z info: Port 3000 is available (SUCCESS)
+2026-11-15T19:56:30.412336943Z info: All dependencies in ./package.json are satisfied (SUCCESS)
+2026-11-15T19:56:35.420274474Z warn: Domain https://www.alchemy.com/ is not reachable (WARNING)
+2026-11-15T19:56:35.420297480Z warn: "Mint the Honey Pot" challenge will not work as intended without access to https://www.alchemy.com/
+2026-11-15T19:56:35.420651196Z warn: "Wallet Depletion" challenge will not work as intended without access to https://www.alchemy.com/
+2026-11-15T19:56:35.420660591Z warn: Environment variable ALCHEMY_API_KEY is not present (WARNING)
+2026-11-15T19:56:35.421443333Z warn: "Mint the Honey Pot" challenge will not work as intended without a valid ALCHEMY_API_KEY
+2026-11-15T19:56:35.421454240Z warn: "Wallet Depletion" challenge will not work as intended without a valid ALCHEMY_API_KEY
+2026-11-15T19:56:35.421455701Z info: Check https://howto-web3.owasp-juice.shop for instructions on how to set up and configure the Alchemy API
+2026-11-15T19:56:35.425112731Z warn: Domain http://localhost:11434/v1 is not reachable (WARNING)
+2026-11-15T19:56:35.425124611Z warn: "Chatbot Prompt Injection" challenge will not work as intended without access to http://localhost:11434/v1
+2026-11-15T19:56:35.425126198Z warn: "Greedy Chatbot Manipulation" challenge will not work as intended without access to http://localhost:11434/v1
+2026-11-15T19:56:35.425127272Z warn: "AI Debugging" challenge will not work as intended without access to http://localhost:11434/v1
+2026-11-15T19:56:35.425128226Z warn: "System Prompt Extraction" challenge will not work as intended without access to http://localhost:11434/v1
+2026-11-15T19:56:35.425129200Z info: Check https://howto-llm.owasp-juice.shop for instructions on how to set up and configure the LLM API
+2026-11-15T19:56:39.752536640Z info: Server listening on port 3000
+2026-11-15T19:57:21.241296875Z Error: Unexpected path: /api
+2026-11-15T19:57:21.241328454Z     at /juice-shop/build/routes/angular.js:18:18
+2026-11-15T19:57:21.241331543Z     at /juice-shop/build/lib/utils.js:275:26
+2026-11-15T19:57:21.241333672Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-15T19:57:21.241335924Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-15T19:57:21.241338356Z     at /juice-shop/node_modules/express/lib/router/index.js:286:9
+2026-11-15T19:57:21.241340379Z     at router.process_params (/juice-shop/node_modules/express/lib/router/index.js:346:12)
+2026-11-15T19:57:21.241342450Z     at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+2026-11-15T19:57:21.241344611Z     at /juice-shop/build/routes/verify.js:235:5
+2026-11-15T19:57:21.241346663Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-15T19:57:21.241348778Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-15T19:57:21.241350847Z     at /juice-shop/node_modules/express/lib/router/index.js:286:9
+2026-11-15T19:57:21.241352903Z     at router.process_params (/juice-shop/node_modules/express/lib/router/index.js:346:12)
+2026-11-15T19:57:21.241355060Z     at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+2026-11-15T19:57:21.241357165Z     at /juice-shop/build/lib/insecurity.js:218:5
+2026-11-15T19:57:21.241359213Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-15T19:57:21.241361327Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-15T19:57:21.241869890Z Error: Unexpected path: /apis
+2026-11-15T19:57:21.241891643Z     at /juice-shop/build/routes/angular.js:18:18
+2026-11-15T19:57:21.241894043Z     at /juice-shop/build/lib/utils.js:275:26
+2026-11-15T19:57:21.241895808Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-15T19:57:21.241897497Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-15T19:57:21.241899129Z     at /juice-shop/node_modules/express/lib/router/index.js:286:9
+2026-11-15T19:57:21.241900684Z     at router.process_params (/juice-shop/node_modules/express/lib/router/index.js:346:12)
+2026-11-15T19:57:21.241902333Z     at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+2026-11-15T19:57:21.241903990Z     at /juice-shop/build/routes/verify.js:235:5
+2026-11-15T19:57:21.241905595Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-15T19:57:21.241907272Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-15T19:57:21.241908879Z     at /juice-shop/node_modules/express/lib/router/index.js:286:9
+2026-11-15T19:57:21.241910431Z     at router.process_params (/juice-shop/node_modules/express/lib/router/index.js:346:12)
+2026-11-15T19:57:21.241912056Z     at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+2026-11-15T19:57:21.241913643Z     at /juice-shop/build/lib/insecurity.js:218:5
+2026-11-15T19:57:21.241915271Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-15T19:57:21.241916947Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-15T19:57:21.284740677Z info: Solved 1-star errorHandlingChallenge (Error Handling)
+2026-11-15T19:57:21.292679824Z info: Cheat score for trivial errorHandlingChallenge solved in 1min (expected ~0min) with hints allowed: 0
+2026-11-15T20:00:48.409241466Z Error: Blocked illegal activity by ::ffff:192.168.56.101
+2026-11-15T20:00:48.409281125Z     at /juice-shop/build/routes/userProfile.js:69:18
+2026-11-15T20:01:00.798037337Z TypeError: Cannot read properties of undefined (reading 'includes')
+2026-11-15T20:01:00.798156979Z     at Object.isRedirectAllowed (/juice-shop/build/lib/insecurity.js:157:34)
+2026-11-15T20:01:00.798160017Z     at /juice-shop/build/routes/redirect.js:47:22
+2026-11-15T20:01:00.798161544Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-15T20:01:00.798163038Z     at next (/juice-shop/node_modules/express/lib/router/route.js:149:13)
+2026-11-15T20:01:00.798164705Z     at Route.dispatch (/juice-shop/node_modules/express/lib/router/route.js:119:3)
+2026-11-15T20:01:00.798166116Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-15T20:01:00.798167522Z     at /juice-shop/node_modules/express/lib/router/index.js:284:15
+2026-11-15T20:01:00.798183508Z     at router.process_params (/juice-shop/node_modules/express/lib/router/index.js:346:12)
+2026-11-15T20:01:00.798184642Z     at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+2026-11-15T20:01:00.798185684Z     at /juice-shop/build/routes/verify.js:235:5
+2026-11-15T20:01:00.798186728Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-15T20:01:00.798187752Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-15T20:01:00.798188809Z     at /juice-shop/node_modules/express/lib/router/index.js:286:9
+2026-11-15T20:01:00.798189821Z     at router.process_params (/juice-shop/node_modules/express/lib/router/index.js:346:12)
+2026-11-15T20:01:00.798190859Z     at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+2026-11-15T20:01:00.798191887Z     at /juice-shop/build/lib/insecurity.js:218:5
+2026-11-15T20:01:07.465397139Z Error: Unexpected path: /rest
+2026-11-15T20:01:07.465422282Z     at /juice-shop/build/routes/angular.js:18:18
+2026-11-15T20:01:07.465423738Z     at /juice-shop/build/lib/utils.js:275:26
+2026-11-15T20:01:07.465424988Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-15T20:01:07.465426002Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-15T20:01:07.465426950Z     at /juice-shop/node_modules/express/lib/router/index.js:286:9
+2026-11-15T20:01:07.465427928Z     at router.process_params (/juice-shop/node_modules/express/lib/router/index.js:346:12)
+2026-11-15T20:01:07.465428877Z     at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+2026-11-15T20:01:07.465429825Z     at /juice-shop/build/routes/verify.js:235:5
+2026-11-15T20:01:07.465430771Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-15T20:01:07.465431742Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-15T20:01:07.465432706Z     at /juice-shop/node_modules/express/lib/router/index.js:286:9
+2026-11-15T20:01:07.465433631Z     at router.process_params (/juice-shop/node_modules/express/lib/router/index.js:346:12)
+2026-11-15T20:01:07.465434546Z     at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+2026-11-15T20:01:07.465435498Z     at /juice-shop/build/lib/insecurity.js:218:5
+2026-11-15T20:01:07.465436432Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-15T20:01:07.465437408Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-15T20:01:07.493143281Z Error: Unexpected path: /restaurants
+2026-11-15T20:01:07.493172962Z     at /juice-shop/build/routes/angular.js:18:18
+2026-11-15T20:01:07.493175562Z     at /juice-shop/build/lib/utils.js:275:26
+2026-11-15T20:01:07.493190976Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-15T20:01:07.493192526Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-15T20:01:07.493193867Z     at /juice-shop/node_modules/express/lib/router/index.js:286:9
+2026-11-15T20:01:07.493194991Z     at router.process_params (/juice-shop/node_modules/express/lib/router/index.js:346:12)
+2026-11-15T20:01:07.493196451Z     at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+2026-11-15T20:01:07.493197712Z     at /juice-shop/build/routes/verify.js:235:5
+2026-11-15T20:01:07.493199147Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-15T20:01:07.493200538Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-15T20:01:07.493201870Z     at /juice-shop/node_modules/express/lib/router/index.js:286:9
+2026-11-15T20:01:07.493203654Z     at router.process_params (/juice-shop/node_modules/express/lib/router/index.js:346:12)
+2026-11-15T20:01:07.493205114Z     at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+2026-11-15T20:01:07.493206403Z     at /juice-shop/build/lib/insecurity.js:218:5
+2026-11-15T20:01:07.493207753Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-15T20:01:07.493231904Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-15T20:01:07.493233599Z Error: Unexpected path: /restore
+2026-11-15T20:01:07.493235134Z     at /juice-shop/build/routes/angular.js:18:18
+2026-11-15T20:01:07.493236841Z     at /juice-shop/build/lib/utils.js:275:26
+2026-11-15T20:01:07.493238443Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-15T20:01:07.493239819Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-15T20:01:07.493240970Z     at /juice-shop/node_modules/express/lib/router/index.js:286:9
+2026-11-15T20:01:07.493242209Z     at router.process_params (/juice-shop/node_modules/express/lib/router/index.js:346:12)
+2026-11-15T20:01:07.493243513Z     at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+2026-11-15T20:01:07.493244988Z     at /juice-shop/build/routes/verify.js:235:5
+2026-11-15T20:01:07.493246222Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-15T20:01:07.493247688Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-15T20:01:07.493250322Z     at /juice-shop/node_modules/express/lib/router/index.js:286:9
+2026-11-15T20:01:07.493251586Z     at router.process_params (/juice-shop/node_modules/express/lib/router/index.js:346:12)
+2026-11-15T20:01:07.493252915Z     at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+2026-11-15T20:01:07.493254294Z     at /juice-shop/build/lib/insecurity.js:218:5
+2026-11-15T20:01:07.493285567Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-15T20:01:07.493287567Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-15T20:01:07.674922812Z Error: Unexpected path: /restored
+2026-11-15T20:01:07.674952542Z     at /juice-shop/build/routes/angular.js:18:18
+2026-11-15T20:01:07.674954026Z     at /juice-shop/build/lib/utils.js:275:26
+2026-11-15T20:01:07.674955085Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-15T20:01:07.674956133Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-15T20:01:07.674957084Z     at /juice-shop/node_modules/express/lib/router/index.js:286:9
+2026-11-15T20:01:07.674958347Z     at router.process_params (/juice-shop/node_modules/express/lib/router/index.js:346:12)
+2026-11-15T20:01:07.674959361Z     at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+2026-11-15T20:01:07.674960317Z     at /juice-shop/build/routes/verify.js:235:5
+2026-11-15T20:01:07.674961284Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-15T20:01:07.674962247Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-15T20:01:07.674963201Z     at /juice-shop/node_modules/express/lib/router/index.js:286:9
+2026-11-15T20:01:07.674964125Z     at router.process_params (/juice-shop/node_modules/express/lib/router/index.js:346:12)
+2026-11-15T20:01:07.674965061Z     at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+2026-11-15T20:01:07.674966023Z     at /juice-shop/build/lib/insecurity.js:218:5
+2026-11-15T20:01:07.674966965Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-15T20:01:07.674967941Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-15T20:01:07.706377434Z Error: Unexpected path: /restricted
+2026-11-15T20:01:07.706400784Z     at /juice-shop/build/routes/angular.js:18:18
+2026-11-15T20:01:07.706402154Z     at /juice-shop/build/lib/utils.js:275:26
+2026-11-15T20:01:07.706403087Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-15T20:01:07.706404295Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-15T20:01:07.706405214Z     at /juice-shop/node_modules/express/lib/router/index.js:286:9
+2026-11-15T20:01:07.706406073Z     at router.process_params (/juice-shop/node_modules/express/lib/router/index.js:346:12)
+2026-11-15T20:01:07.706406995Z     at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+2026-11-15T20:01:07.706407881Z     at /juice-shop/build/routes/verify.js:235:5
+2026-11-15T20:01:07.706408748Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-15T20:01:07.706424393Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-15T20:01:07.706425414Z     at /juice-shop/node_modules/express/lib/router/index.js:286:9
+2026-11-15T20:01:07.706426313Z     at router.process_params (/juice-shop/node_modules/express/lib/router/index.js:346:12)
+2026-11-15T20:01:07.706427219Z     at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+2026-11-15T20:01:07.706428083Z     at /juice-shop/build/lib/insecurity.js:218:5
+2026-11-15T20:01:07.706428966Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-15T20:01:07.706429883Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-17T20:44:16.546949351Z info: Detected Node.js version v24.22.2 (SUCCESS)
+2026-11-17T20:44:16.548271453Z info: Detected OS linux (SUCCESS)
+2026-11-17T20:44:16.548282114Z info: Detected CPU x64 (SUCCESS)
+2026-11-17T20:44:16.578534239Z info: Configuration default validated (SUCCESS)
+2026-11-17T20:44:16.652405750Z info: Entity models 22 of 22 are initialized (SUCCESS)
+2026-11-17T20:44:16.844576107Z info: Required file server.js is present (SUCCESS)
+2026-11-17T20:44:16.844597248Z info: Required file main.js is present (SUCCESS)
+2026-11-17T20:44:16.845155011Z info: Required file polyfills.js is present (SUCCESS)
+2026-11-17T20:44:16.845820927Z info: Required file index.html is present (SUCCESS)
+2026-11-17T20:44:16.846708272Z info: Required file styles.css is present (SUCCESS)
+2026-11-17T20:44:16.847852253Z info: Required file matching /^hacking-instructor-.+\.js$/ is present (SUCCESS)
+2026-11-17T20:44:16.865211920Z info: Port 3000 is available (SUCCESS)
+2026-11-17T20:44:16.998938355Z info: All dependencies in ./package.json are satisfied (SUCCESS)
+2026-11-17T20:44:22.001396671Z warn: Domain https://www.alchemy.com/ is not reachable (WARNING)
+2026-11-17T20:44:22.001424410Z warn: "Mint the Honey Pot" challenge will not work as intended without access to https://www.alchemy.com/
+2026-11-17T20:44:22.002079754Z warn: "Wallet Depletion" challenge will not work as intended without access to https://www.alchemy.com/
+2026-11-17T20:44:22.002741175Z warn: Environment variable ALCHEMY_API_KEY is not present (WARNING)
+2026-11-17T20:44:22.003389080Z warn: "Mint the Honey Pot" challenge will not work as intended without a valid ALCHEMY_API_KEY
+2026-11-17T20:44:22.003694902Z warn: "Wallet Depletion" challenge will not work as intended without a valid ALCHEMY_API_KEY
+2026-11-17T20:44:22.003940082Z info: Check https://howto-web3.owasp-juice.shop for instructions on how to set up and configure the Alchemy API
+2026-11-17T20:44:22.008452094Z warn: Domain http://localhost:11434/v1 is not reachable (WARNING)
+2026-11-17T20:44:22.009179919Z warn: "Chatbot Prompt Injection" challenge will not work as intended without access to http://localhost:11434/v1
+2026-11-17T20:44:22.009214970Z warn: "Greedy Chatbot Manipulation" challenge will not work as intended without access to http://localhost:11434/v1
+2026-11-17T20:44:22.009216909Z warn: "AI Debugging" challenge will not work as intended without access to http://localhost:11434/v1
+2026-11-17T20:44:22.009218146Z warn: "System Prompt Extraction" challenge will not work as intended without access to http://localhost:11434/v1
+2026-11-17T20:44:22.009219183Z info: Check https://howto-llm.owasp-juice.shop for instructions on how to set up and configure the LLM API
+2026-11-17T20:44:26.494214323Z info: Server listening on port 3000
+2026-11-17T20:44:42.728679480Z Error: Unexpected path: /api
+2026-11-17T20:44:42.729119053Z     at /juice-shop/build/routes/angular.js:18:18
+2026-11-17T20:44:42.729134308Z     at /juice-shop/build/lib/utils.js:275:26
+2026-11-17T20:44:42.729137424Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-17T20:44:42.729139969Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-17T20:44:42.729141955Z     at /juice-shop/node_modules/express/lib/router/index.js:286:9
+2026-11-17T20:44:42.729143792Z     at router.process_params (/juice-shop/node_modules/express/lib/router/index.js:346:12)
+2026-11-17T20:44:42.729145624Z     at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+2026-11-17T20:44:42.729147432Z     at /juice-shop/build/routes/verify.js:235:5
+2026-11-17T20:44:42.729149183Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-17T20:44:42.729150998Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-17T20:44:42.729152857Z     at /juice-shop/node_modules/express/lib/router/index.js:286:9
+2026-11-17T20:44:42.729154687Z     at router.process_params (/juice-shop/node_modules/express/lib/router/index.js:346:12)
+2026-11-17T20:44:42.729156492Z     at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+2026-11-17T20:44:42.729158304Z     at /juice-shop/build/lib/insecurity.js:218:5
+2026-11-17T20:44:42.729163213Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-17T20:44:42.729165164Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-17T20:44:42.729964091Z Error: Unexpected path: /apis
+2026-11-17T20:44:42.729980324Z     at /juice-shop/build/routes/angular.js:18:18
+2026-11-17T20:44:42.729983963Z     at /juice-shop/build/lib/utils.js:275:26
+2026-11-17T20:44:42.729986153Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-17T20:44:42.729988296Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-17T20:44:42.729990219Z     at /juice-shop/node_modules/express/lib/router/index.js:286:9
+2026-11-17T20:44:42.730300296Z     at router.process_params (/juice-shop/node_modules/express/lib/router/index.js:346:12)
+2026-11-17T20:44:42.730307268Z     at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+2026-11-17T20:44:42.730309689Z     at /juice-shop/build/routes/verify.js:235:5
+2026-11-17T20:44:42.730311584Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-17T20:44:42.730313646Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-17T20:44:42.730315492Z     at /juice-shop/node_modules/express/lib/router/index.js:286:9
+2026-11-17T20:44:42.730317262Z     at router.process_params (/juice-shop/node_modules/express/lib/router/index.js:346:12)
+2026-11-17T20:44:42.730319085Z     at next (/juice-shop/node_modules/express/lib/router/index.js:280:10)
+2026-11-17T20:44:42.730320879Z     at /juice-shop/build/lib/insecurity.js:218:5
+2026-11-17T20:44:42.730322651Z     at Layer.handle [as handle_request] (/juice-shop/node_modules/express/lib/router/layer.js:95:5)
+2026-11-17T20:44:42.730324474Z     at trim_prefix (/juice-shop/node_modules/express/lib/router/index.js:328:13)
+2026-11-17T20:45:16.440394754Z 
+2026-11-17T20:45:16.441302673Z <--- Last few GCs --->
+2026-11-17T20:45:16.441314784Z 
+2026-11-17T20:45:16.441316804Z [1:0x76fa000]    61645 ms: Mark-Compact 819.1 (824.2) -> 817.3 (824.4) MB, pooled: 0 MB, 490.62 / 0.00 ms  (average mu = 0.126, current mu = 0.053) allocation failure; scavenge might not succeed
+2026-11-17T20:45:16.441724158Z [1:0x76fa000]    62185 ms: Mark-Compact (reduce) 819.3 (824.4) -> 818.0 (821.9) MB, pooled: 0 MB, 413.28 / 0.01 ms  (+ 0.3 ms in 19 steps since start of marking, biggest step 0.1 ms, walltime since start of marking 426 ms) (average mu = 0.173, current mu 
+2026-11-17T20:45:16.441727118Z FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
+2026-11-17T20:45:16.441728612Z ----- Native stack trace -----
+2026-11-17T20:45:16.441730021Z 
+2026-11-17T20:45:16.441731513Z  1: 0x942e80  [/nodejs/bin/node]
+2026-11-17T20:45:16.441732934Z  2: 0x75f71e node::OOMErrorHandler(char const*, v8::OOMDetails const&) [/nodejs/bin/node]
+2026-11-17T20:45:16.441736266Z  3: 0xc9a1e0  [/nodejs/bin/node]
+2026-11-17T20:45:16.442236779Z  4: 0xc9a2cf  [/nodejs/bin/node]
+2026-11-17T20:45:16.457223660Z  5: 0xf3e5a5  [/nodejs/bin/node]
+2026-11-17T20:45:16.457778728Z  6: 0xf3e5d2  [/nodejs/bin/node]
+2026-11-17T20:45:16.458356710Z  7: 0xf3e8ca  [/nodejs/bin/node]
+2026-11-17T20:45:16.458901830Z  8: 0xf4f5ca  [/nodejs/bin/node]
+2026-11-17T20:45:16.459469885Z  9: 0xf53970  [/nodejs/bin/node]
+2026-11-17T20:45:16.459983996Z 10: 0x19f1e81  [/nodejs/bin/node]
+2026-11-17T21:56:46.050462022Z info: Detected Node.js version v24.22.2 (SUCCESS)
+2026-11-17T21:56:46.051129956Z info: Detected OS linux (SUCCESS)
+2026-11-17T21:56:46.051914831Z info: Detected CPU x64 (SUCCESS)
+2026-11-17T21:56:46.067288503Z info: Configuration default validated (SUCCESS)
+2026-11-17T21:56:46.122524982Z info: Entity models 22 of 22 are initialized (SUCCESS)
+2026-11-17T21:56:46.228162535Z info: Required file server.js is present (SUCCESS)
+2026-11-17T21:56:46.228774157Z info: Required file index.html is present (SUCCESS)
+2026-11-17T21:56:46.229271281Z info: Required file styles.css is present (SUCCESS)
+2026-11-17T21:56:46.230107760Z info: Required file main.js is present (SUCCESS)
+2026-11-17T21:56:46.230117713Z info: Required file polyfills.js is present (SUCCESS)
+2026-11-17T21:56:46.230582648Z info: Required file matching /^hacking-instructor-.+\.js$/ is present (SUCCESS)
+2026-11-17T21:56:46.233534443Z info: Port 3000 is available (SUCCESS)
+2026-11-17T21:56:46.333914093Z info: All dependencies in ./package.json are satisfied (SUCCESS)
+2026-11-17T21:56:51.337692014Z warn: Domain https://www.alchemy.com/ is not reachable (WARNING)
+2026-11-17T21:56:51.337712898Z warn: "Mint the Honey Pot" challenge will not work as intended without access to https://www.alchemy.com/
+2026-11-17T21:56:51.337714523Z warn: "Wallet Depletion" challenge will not work as intended without access to https://www.alchemy.com/
+2026-11-17T21:56:51.337715584Z warn: Environment variable ALCHEMY_API_KEY is not present (WARNING)
+2026-11-17T21:56:51.337716490Z warn: "Mint the Honey Pot" challenge will not work as intended without a valid ALCHEMY_API_KEY
+2026-11-17T21:56:51.337717460Z warn: "Wallet Depletion" challenge will not work as intended without a valid ALCHEMY_API_KEY
+2026-11-17T21:56:51.337718434Z info: Check https://howto-web3.owasp-juice.shop for instructions on how to set up and configure the Alchemy API
+2026-11-17T21:56:51.341199481Z warn: Domain http://localhost:11434/v1 is not reachable (WARNING)
+2026-11-17T21:56:51.341221010Z warn: "Chatbot Prompt Injection" challenge will not work as intended without access to http://localhost:11434/v1
+2026-11-17T21:56:51.341222792Z warn: "Greedy Chatbot Manipulation" challenge will not work as intended without access to http://localhost:11434/v1
+2026-11-17T21:56:51.341223908Z warn: "AI Debugging" challenge will not work as intended without access to http://localhost:11434/v1
+2026-11-17T21:56:51.341225005Z warn: "System Prompt Extraction" challenge will not work as intended without access to http://localhost:11434/v1
+2026-11-17T21:56:51.341949320Z info: Check https://howto-llm.owasp-juice.shop for instructions on how to set up and configure the LLM API
+2026-11-17T21:56:54.709401163Z info: Server listening on port 3000

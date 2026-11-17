@@ -14,7 +14,7 @@ for i in $(seq 1 20); do
     CMD=${CMDS[$RANDOM % ${#CMDS[@]}]}
 
     echo "[$i/20] Running: $CMD (then waiting ${DELAY}s)"
-    sshpass -p 'YOUR_PASSWORD_HERE' ssh -o StrictHostKeyChecking=no "$USER@$VICTIM" "$CMD"
+    sshpass -p 'jugniji' ssh -o StrictHostKeyChecking=no "$USER@$VICTIM" "$CMD"
 
     sleep "$DELAY"
 done
